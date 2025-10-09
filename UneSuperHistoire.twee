@@ -7,70 +7,131 @@ UneSuperHistoire
   "ifid": "3B99F9C6-3026-42EC-8C2E-C7EA95792606",
   "format": "Harlowe",
   "format-version": "3.3.9",
-  "start": "Passage sans titre",
+  "start": "présentation + demandage de pseudo",
   "zoom": 1
 }
 
 
-:: Ignorer SFR {"position":"1125,900","size":"100,100"}
+:: Ask yourself an existential question about your weight and your level in this game that drives you crazy {"position":"1075,625","size":"100,100"}
+[[Continue to lose]] 
+
+
+:: Attack the bank fast {"position":"2325,750","size":"100,100"}
+[[Wait they have cyber security ?!]] 
+
+
+:: Attack the bank slow {"position":"2325,900","size":"100,100"}
+[[Wait they have cyber security :/]] 
+
+
+:: Continue to lose {"position":"1125,800","size":"100,100"}
+[[sleep and dream of a better life with grass and shower]] 
+
+
+:: I WANT MONEY NOWWW !! {"position":"2075,825","size":"100,100"}
+[[What should I attack ?]] 
+
+
+:: I need to train myself before {"position":"3000,525","size":"100,100"}
+[[he learns stuff idk]] 
+
+
+:: I want more money {"position":"1950,750","size":"100,100"}
+[[I need to train myself before]] 
+[[I WANT MONEY NOWWW !!]] 
+
+
+:: Ignorer SFR {"position":"1450,850","size":"100,100"}
 
 
 
-:: JE DOIS ABSOLUMENT TROUVER DE L'ARGENT {"position":"1125,725","size":"100,100"}
+:: It worked {"position":"1825,750","size":"100,100"}
+[[I want more money]] 
+
+
+:: JE DOIS ABSOLUMENT TROUVER DE L'ARGENT {"position":"1450,750","size":"100,100"}
+I need to find money otherwise I won't be able to play LoL anymore, and I would rather be dead than stopping LoL !!!!!
+
+[[Testons nos capacités]] 
+
+
+:: SFR vous appelle {"position":"1300,800","size":"100,100"}
+The next day, you wake up at 1 p.m. again, but today it's not your alarm clock that wakes you up, but your phone ringing. 
+It's SFR! You start talking to them, but the tone escalates. They remind you that you are already four months behind on your subscription and that the late fees are skyrocketing.
+Finally, you can no longer ask for more time, and they end up telling you that in two days, you will have to pay 120 euros. They hang up on you. 
+So you wonder what to do. Ignore these threats and continue playing your favorite games, or look for a way to earn money?
+
+[[JE DOIS ABSOLUMENT TROUVER DE L'ARGENT]] 
+[[Ignorer SFR]] 
+
+
+:: Testons nos capacités {"position":"1575,750","size":"100,100"}
+[[public wifi attack]] 
+
+
+:: The cops are in front of my house {"position":"2700,675","size":"100,100"}
 
 
 
-:: Passage sans titre {"position":"600,825","size":"100,100"}
+:: Wait they have cyber security :/ {"position":"2450,900","size":"100,100"}
+[[keep going]] 
+[[mollo mollo l'asticot]] 
+
+
+:: Wait they have cyber security ?! {"position":"2450,675","size":"100,100"}
+[[Woops I doxed my adress]] 
+
+
+:: What should I attack ? {"position":"2200,825","size":"100,100"}
+[[Attack the bank fast]] 
+[[Attack the bank slow]] 
+
+
+:: Woops I doxed my adress {"position":"2575,675","size":"100,100"}
+[[The cops are in front of my house]] 
+
+
+:: You're a League of Legends player {"position":"975,825","size":"100,100"}
+You're the hacker $name but our'e also a League of Legends player
+
+[[Continue to lose]] 
+[[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
+[[sleep and dream of a better life with grass and shower]] 
+
+
+:: he learns stuff idk {"position":"3125,525","size":"100,100"}
+[[he's now better >:)]] 
+
+
+:: he's dead :( (bcs he can't play lol anymore) {"position":"2700,850","size":"100,100"}
 
 
 
-:: Passage sans titre 1 {"position":"725,825","size":"100,100"}
+:: he's now better >:) {"position":"3250,525","size":"100,100"}
 
 
 
-:: Passage sans titre 10 {"position":"1700,375","size":"100,100"}
+:: keep going {"position":"2575,850","size":"100,100"}
+[[he's dead :( (bcs he can't play lol anymore)]] 
+
+
+:: mollo mollo l'asticot {"position":"2850,1050","size":"100,100"}
+[[I need to train myself before]] 
+
+
+:: présentation + demandage de pseudo {"position":"850,825","size":"100,100"}
+text
+
+
+(set: $name to (prompt: "Enter your name:", ""))
+
+[[You're a League of Legends player]] 
 
 
 
-:: Passage sans titre 11 {"position":"1850,275","size":"100,100"}
+:: public wifi attack {"position":"1700,750","size":"100,100"}
+[[It worked]] 
 
 
-
-:: Passage sans titre 12 {"position":"1850,375","size":"100,100"}
-
-
-
-:: Passage sans titre 13 {"position":"1625,775","size":"100,100"}
-
-
-
-:: Passage sans titre 2 {"position":"850,825","size":"100,100"}
-
-
-
-:: Passage sans titre 3 {"position":"975,825","size":"100,100"}
-
-
-
-:: Passage sans titre 4 {"position":"1500,725","size":"100,100"}
-
-
-
-:: Passage sans titre 5 {"position":"1625,650","size":"100,100"}
-
-
-
-:: Passage sans titre 6 {"position":"1250,725","size":"100,100"}
-
-
-
-:: Passage sans titre 7 {"position":"1375,725","size":"100,100"}
-
-
-
-:: Passage sans titre 8 {"position":"1500,300","size":"100,100"}
-
-
-
-:: Passage sans titre 9 {"position":"1950,350","size":"100,100"}
-
+:: sleep and dream of a better life with grass and shower {"position":"1125,1000","size":"100,100"}
+[[SFR vous appelle]] 
