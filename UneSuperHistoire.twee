@@ -12,7 +12,7 @@ UneSuperHistoire
 }
 
 
-:: Ask yourself an existential question about your weight and your level in this game that drives you crazy {"position":"1075,625","size":"100,100"}
+:: Ask yourself an existential question about your weight and your level in this game that drives you crazy {"position":"1125,625","size":"100,100"}
 [[Continue to lose]] 
 
 
@@ -91,14 +91,6 @@ So you wonder what to do. Ignore these threats and continue playing your favorit
 [[The cops are in front of my house]] 
 
 
-:: You're a League of Legends player {"position":"975,825","size":"100,100"}
-You're the hacker $name but our'e also a League of Legends player
-
-[[Continue to lose]] 
-[[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
-[[sleep and dream of a better life with grass and shower]] 
-
-
 :: he learns stuff idk {"position":"3125,525","size":"100,100"}
 [[he's now better >:)]] 
 
@@ -119,14 +111,19 @@ You're the hacker $name but our'e also a League of Legends player
 [[I need to train myself before]] 
 
 
-:: présentation + demandage de pseudo {"position":"850,825","size":"100,100"}
-text
+:: présentation + demandage de pseudo {"position":"950,800","size":"100,100"}
+Ur ringtone is ringing , u wake up at at 1 p.m. like every day, after all.
+U sit on ur used gaming chair drink a redbull and start playing your unique and favorite game League of Legend !
+After 15 min of figth even after all your efforts you loose, you're still bad at it, and another defeat awaits you in the next game.
+You also dream of getting the new skin of arhis but  you remind that you'r unemployed and you don't even have enough money to pay your internet provider.
+The nigth start to fall did you will again sleep later and continue to play or you wan't stop because its ur 20th loose of the day?
 
 
 (set: $name to (prompt: "Enter your name:", ""))
 
-[[You're a League of Legends player]] 
-
+[[Continue to lose]] 
+[[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
+[[sleep and dream of a better life with grass and shower]] 
 
 
 :: public wifi attack {"position":"1700,750","size":"100,100"}
