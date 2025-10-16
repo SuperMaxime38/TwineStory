@@ -10,7 +10,7 @@ Fonction twine:
 Passage :
 [[nom prochain passage]]
 
-Passer au prochain passage sans que son nom soit le même que le choix fait
+Passer au prochain passage sans que son nom soit le même que le choix fait:
 [[le texte->nom du passage]]
 
 Passage avec condition:
