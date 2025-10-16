@@ -12,21 +12,27 @@ UneSuperHistoire
 }
 
 
-:: A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom). {"position":"1575,875","size":"100,100"}
+:: A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom). {"position":"1550,875","size":"100,100"}
 Even though you've seen the advice on Reddit, you're still hooked on her Instagram photos, and even if you catch one of the photos she sent (man in the middle), it's just a cute cat photo :( 
 Her phone quickly spots you and she logs off the Wi-Fi (yeah, gotta stay focused—it's not her beach photos that are gonna make you money...)
 
+[[Ok let's hack the student->A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
 
-:: A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information. {"position":"1575,750","size":"100,100"}
+[[Ok let's hack the elder->A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information.]] 
+
+
+:: A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information. {"position":"1650,700","size":"100,100"}
+
+
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
 src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
 frameborder="0" allow="autoplay">
 </iframe>
 
-[[public wifi attack]]
+[[I will hack his webcam->public wifi attack]]
 
 
-:: A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money). {"position":"1575,625","size":"100,100"}
+:: A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money). {"position":"1525,575","size":"100,100"}
 Unfortunately, the penniless student is no myth, and all you manage to get from him is his student IDnumber and his IZLY account (which has been empty for some time).
 His situation is understandable, given how stingy his parents are (you can't find any way to get even a few cents out of them, which makes you almost feel sorry for him).
 
@@ -34,6 +40,11 @@ His situation is understandable, given how stingy his parents are (you can't fin
 :: Ask yourself an existential question about your weight and your level in this game that drives you crazy {"position":"1125,625","size":"100,100"}
 After thinking it over for a long time (2 min 37 sec),
 you decide that life is worth living the way you want to live it, and you decide to get back on LOL, more determined than ever.
+
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/8On78J3vLr4?autoplay=1&loop=1&playlist=8On78J3vLr4" 
+frameborder="0" allow="autoplay">
+</iframe>
 
 [[Continue to lose]]
 
@@ -101,28 +112,57 @@ Several profiles come to you:
 
 
 :: I WANT MONEY NOWWW !! {"position":"2150,825","size":"100,100"}
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/o0ZpesMYF6A?autoplay=1&loop=1&playlist=o0ZpesMYF6A" 
+frameborder="0" allow="autoplay">
+</iframe>
 [[What should I attack ?]]
 
 
 :: I need to train myself before {"position":"3000,525","size":"100,100"}
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/ODpmhq6CYYk?autoplay=1&loop=1&playlist=ODpmhq6CYYk" 
+frameborder="0" allow="autoplay">
+</iframe>
 [[he learns stuff idk]]
 
 
 :: I want more money {"position":"2025,750","size":"100,100"}
+So you want more, some people can fight for a jar of Nutella at 75% discount so you don't feel ashamed. The new bundle came out on the LoL shop and you want it, but are you ready to hack something bigger to be able to get enough money ?
+
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/S5uZBz_8XV0?autoplay=1&loop=1&playlist=S5uZBz_8XV0" 
+frameborder="0" allow="autoplay">
+</iframe>
 [[I need to train myself before]] 
 [[I WANT MONEY NOWWW !!]]
 
 
-:: Ignore SFR {"position":"1450,875","size":"100,100"}
+:: Ignore SFR {"position":"1425,900","size":"100,100"}
 You thought SFR wouldn't dare to cut your internet, but they did...
 You now have no connexion and you can't play League Of Legends anymore, you're lonely and depressed.
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/K3kFQHKE0LA?autoplay=1&loop=1&playlist=K3kFQHKE0LA" 
+frameborder="0" >
+</iframe>
+
+{
+(set: _time to 6)
+(live: 1s)[(set: _time to it - 1)
+	(if: _time is 0)[
+		(goto: "Lose page")
+	]
+]
+}
 
 
 :: It worked {"position":"1900,750","size":"100,100"}
+The elder gave you the 50$ as you wished. 50$ is great but with more money you could not only pay your internet bills but also buy new skins in game.
+
 [[I want more money]]
 
 
-:: Loose page {"position":"3025,300","size":"100,100"}
+:: Lose page {"position":"3025,300","size":"100,100"}
 (set: $money to 140)
 
 <div class="end-card fade-in">
@@ -150,6 +190,10 @@ You now have no connexion and you can't play League Of Legends anymore, you're l
       [[Fin]]
     </div>
   ]
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/hBPwpM2oqOk?autoplay=1&loop=1&playlist=hBPwpM2oqOk" 
+frameborder="0" allow="autoplay">
+</iframe>
 </div>
 
 
@@ -158,13 +202,17 @@ The next day, you wake up at 1 p.m. again, but today it's not your alarm clock t
 It's SFR! You start talking to them, but the tone escalates. They remind you that you are already four months behind on your subscription and that the late fees are skyrocketing.
 Finally, you can no longer ask for more time, and they end up telling you that in two days, you will have to pay 120 euros. They hang up on you. 
 So you wonder what to do. Ignore these threats and continue playing your favorite games, or look for a way to earn money?
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/Ky2mly1gIQU?autoplay=1&loop=1&playlist=Ky2mly1gIQU" 
+frameborder="0" allow="autoplay">
+</iframe>
 
 [[I ABSOLUTLY NEED TO FIND MONEY]] 
 [[Ignore SFR]]
 
 
 :: The cops are in front of my house {"position":"2775,675","size":"100,100"}
-[[Loose page]] 
+[[Lose page]] 
 
 
 :: Wait they have cyber security :/ {"position":"2525,900","size":"100,100"}
@@ -189,27 +237,37 @@ So you wonder what to do. Ignore these threats and continue playing your favorit
 [[he's now better >:)]]
 
 
-:: he's dead :( (bcs he can't play lol anymore) {"position":"2775,850","size":"100,100"}
-
-
-
 :: he's now better >:) {"position":"3250,525","size":"100,100"}
 
 
 
-:: keep going {"position":"2650,850","size":"100,100"}
-[[he's dead :( (bcs he can't play lol anymore)]]
+:: keep going {"position":"2650,900","size":"100,100"}
+Well you miss clicked and enabled your webcam, now the cybersecurity service now your face and they located you.
+[[The cops are in front of my house]] 
 
 
-:: mollo mollo l'asticot {"position":"2850,1050","size":"100,100"}
+:: mollo mollo l'asticot {"position":"2850,1200","size":"100,100"}
 [[I need to train myself before]]
 
 
-:: public wifi attack {"position":"1775,750","size":"100,100"}
+:: public wifi attack {"position":"1775,725","size":"100,100"}
+
+
+
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
+frameborder="0" allow="autoplay">
+</iframe>
+
 [[It worked]]
 
 
 :: sleep and dream of a better life with grass and shower {"position":"1125,1000","size":"100,100"}
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/4xqFVWqM-k4?autoplay=1&loop=1&playlist=4xqFVWqM-k4" 
+frameborder="0" allow="autoplay">
+</iframe>
+
 [[SFR calls you]]
 
 
