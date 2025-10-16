@@ -173,8 +173,8 @@ The elder gave you the 50$ as you wished. 50$ is great but with more money you c
 
   (if: $money >= 120)[
     (set: $money to 0)
-    <div>Tu as réussi à rembourser ta dette. Il reste peut-être une chance de rejouer.</div>
-    <div class="actions">
+    <div class="subtle">Tu as réussi à rembourser ta dette. Il reste peut-être une chance de rejouer.</div>
+    <div class="title">
       [[Rejouer->First]]
     </div>
   ]
@@ -320,7 +320,7 @@ body {
 /* ====== Titre principal ====== */
 .title {
   font-size: 3rem;
-  color: #ff1a1a;
+  color: 4B258A;
   text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
   margin-bottom: 20px;
   animation: flicker 2s infinite;
@@ -328,23 +328,17 @@ body {
 
 /* ====== Sous-texte ====== */
 .subtle {
-  font-size: 1rem;
-  color: #ff8080;
-  margin-bottom: 25px;
-  font-style: italic;
+  font-size: 2rem;
+   color:4B258A;
+  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
+  margin-bottom: 20px;
+  animation: flicker 2s infinite;
 }
-
-/* ====== Montant récolté ====== */
 .big-money {
   font-size: 1.2rem;
-  color: #ffff66;
-  text-shadow: 0 0 5px #ffff00;
+  color: 4B258A;
+  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
   margin-bottom: 30px;
-}
-
-/* ====== Boutons ====== */
-.actions {
-  margin-top: 30px;
 }
 
 .btn {
