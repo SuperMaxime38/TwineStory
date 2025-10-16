@@ -7,106 +7,61 @@ UneSuperHistoire
   "ifid": "3B99F9C6-3026-42EC-8C2E-C7EA95792606",
   "format": "Harlowe",
   "format-version": "3.3.9",
-  "start": "Beggining",
+  "start": "présentation + demandage de pseudo",
   "zoom": 1
 }
 
 
-:: A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom). {"position":"1575,875","size":"100,100"}
-Even though you've seen the advice on Reddit, you're still hooked on her Instagram photos, and even if you catch one of the photos she sent (man in the middle), it's just a cute cat photo :( 
-Her phone quickly spots you and she logs off the Wi-Fi (yeah, gotta stay focused—it's not her beach photos that are gonna make you money...)
+:: Ask yourself an existential question about your weight and your level in this game that drives you crazy {"position":"1125,625","size":"100,100"}
+[[Continue to lose]] 
 
 
-:: A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information. {"position":"1575,750","size":"100,100"}
+:: Attack the bank fast {"position":"2325,750","size":"100,100"}
+[[Wait they have cyber security ?!]] 
+
+
+:: Attack the bank slow {"position":"2325,900","size":"100,100"}
+[[Wait they have cyber security :/]] 
+
+
+:: Continue to lose {"position":"1125,800","size":"100,100"}
+[[sleep and dream of a better life with grass and shower]] 
+
+
+:: I ABSOLUTLY NEED TO FIND MONEY {"position":"1450,750","size":"100,100"}
+I need to find money otherwise I won't be able to play LoL anymore, and I would rather be dead than stopping LoL !!!!!
+
+[[Let's test our skill]] 
+
+
+:: I WANT MONEY NOWWW !! {"position":"2075,825","size":"100,100"}
+[[What should I attack ?]] 
+
+
+:: I need to train myself before {"position":"3000,525","size":"100,100"}
+[[he learns stuff idk]] 
+
+
+:: I want more money {"position":"1950,750","size":"100,100"}
+[[I need to train myself before]] 
+[[I WANT MONEY NOWWW !!]] 
+
+
+:: Ignore SFR {"position":"1450,850","size":"100,100"}
+
+
+
+:: It worked {"position":"1825,750","size":"100,100"}
+[[I want more money]] 
+
+
+:: Let's test our skill {"position":"1575,750","size":"100,100"}
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
 src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
 frameborder="0" allow="autoplay">
 </iframe>
 
-[[public wifi attack]]
-
-
-:: A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money). {"position":"1575,625","size":"100,100"}
-Unfortunately, the penniless student is no myth, and all you manage to get from him is his student IDnumber and his IZLY account (which has been empty for some time).
-His situation is understandable, given how stingy his parents are (you can't find any way to get even a few cents out of them, which makes you almost feel sorry for him).
-
-
-:: Ask yourself an existential question about your weight and your level in this game that drives you crazy {"position":"1125,625","size":"100,100"}
-[[Continue to lose]]
-
-
-:: Attack the bank fast {"position":"2400,750","size":"100,100"}
-[[Wait they have cyber security ?!]]
-
-
-:: Attack the bank slow {"position":"2400,900","size":"100,100"}
-[[Wait they have cyber security :/]]
-
-
-:: Beggining {"position":"800,750","size":"100,100"}
-(set: $name to (prompt: "Enter your name:", ""))
-
-{
-(if: $name is not "") [
-	(go-to: "First")
-    
-    ]
-(else:)[
-	(go-to: "Beggining")
-    ]
-}
-
-
-:: Continue to lose {"position":"1125,800","size":"100,100"}
-[[sleep and dream of a better life with grass and shower]]
-
-
-:: First {"position":"925,750","size":"100,100"}
-Your ringtone is ringing , you wake up at at 1 p.m. like every day, after all.
-You sit on your used gaming chair drink a redbull and start playing your unique and favorite game League of Legend !
-After 15 min of fight even after all your efforts you lose, you're still bad at it, and another defeat awaits you in the next game.
-You also dream of getting the new skin of arhis but  you remind that you're unemployed and you don't even have enough money to pay your internet provider.
-The night start to fall, will you sleep later and continue to play or you won't stop because its your 20th lose of the day?
-
-[[Continue to lose]] 
-[[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
-[[sleep and dream of a better life with grass and shower]]
-
-
-:: I ABSOLUTLY NEED TO FIND MONEY {"position":"1450,750","size":"100,100"}
-Forced to find a way to get money, you decide to abandon the idea of robbing a homeless person (it wouldn't bring in enough, you'd have to do it too many times...). However, you've always been good at hacking and dodging security systems on the internet.
-After searching around online, you come across a really helpful Reddit thread on how to access a device on free Wi-Fi.
-This is perfect because you live below a pretty busy bar where you've always been able to use the Wi-Fi, even though it's not as bad as you'd think.
-So, on Monday morning (it's already 3 p.m., but you've just woken up), you decide to delve deeper into this network, which is certainly not the most fiable.
-But there's nothing interesting, since most users are just checking their emails or watching boring videos, so you'll have to wait until tonight to get more interesting information (yet another reason to play XD).
-After a couple of 20 games, each worse than the last, you decide to check out the famous Wi-Fi that's supposed to make you rich in a few days, and you quickly realize that you're not the only one using it at night.
-Several profiles come to you:
-
-[[A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
-[[A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information.]]
-[[A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom).]] 
-
-
-:: I WANT MONEY NOWWW !! {"position":"2150,825","size":"100,100"}
-[[What should I attack ?]]
-
-
-:: I need to train myself before {"position":"3000,525","size":"100,100"}
-[[he learns stuff idk]]
-
-
-:: I want more money {"position":"2025,750","size":"100,100"}
-[[I need to train myself before]] 
-[[I WANT MONEY NOWWW !!]]
-
-
-:: Ignore SFR {"position":"1450,875","size":"100,100"}
-You thought SFR wouldn't dare to cut your internet, but they did...
-You now have no connexion and you can't play League Of Legends anymore, you're lonely and depressed.
-
-
-:: It worked {"position":"1900,750","size":"100,100"}
-[[I want more money]]
+[[public wifi attack]] 
 
 
 :: SFR calls you {"position":"1300,800","size":"100,100"}
@@ -116,36 +71,36 @@ Finally, you can no longer ask for more time, and they end up telling you that i
 So you wonder what to do. Ignore these threats and continue playing your favorite games, or look for a way to earn money?
 
 [[I ABSOLUTLY NEED TO FIND MONEY]] 
-[[Ignore SFR]]
+[[Ignore SFR]] 
 
 
-:: The cops are in front of my house {"position":"2775,675","size":"100,100"}
+:: The cops are in front of my house {"position":"2700,675","size":"100,100"}
 
 
 
-:: Wait they have cyber security :/ {"position":"2525,900","size":"100,100"}
+:: Wait they have cyber security :/ {"position":"2450,900","size":"100,100"}
 [[keep going]] 
-[[mollo mollo l'asticot]]
+[[mollo mollo l'asticot]] 
 
 
-:: Wait they have cyber security ?! {"position":"2525,675","size":"100,100"}
-[[Woops I doxed my adress]]
+:: Wait they have cyber security ?! {"position":"2450,675","size":"100,100"}
+[[Woops I doxed my adress]] 
 
 
-:: What should I attack ? {"position":"2275,825","size":"100,100"}
+:: What should I attack ? {"position":"2200,825","size":"100,100"}
 [[Attack the bank fast]] 
-[[Attack the bank slow]]
+[[Attack the bank slow]] 
 
 
-:: Woops I doxed my adress {"position":"2650,675","size":"100,100"}
-[[The cops are in front of my house]]
+:: Woops I doxed my adress {"position":"2575,675","size":"100,100"}
+[[The cops are in front of my house]] 
 
 
 :: he learns stuff idk {"position":"3125,525","size":"100,100"}
-[[he's now better >:)]]
+[[he's now better >:)]] 
 
 
-:: he's dead :( (bcs he can't play lol anymore) {"position":"2775,850","size":"100,100"}
+:: he's dead :( (bcs he can't play lol anymore) {"position":"2700,850","size":"100,100"}
 
 
 
@@ -153,41 +108,32 @@ So you wonder what to do. Ignore these threats and continue playing your favorit
 
 
 
-:: keep going {"position":"2650,850","size":"100,100"}
-[[he's dead :( (bcs he can't play lol anymore)]]
+:: keep going {"position":"2575,850","size":"100,100"}
+[[he's dead :( (bcs he can't play lol anymore)]] 
 
 
 :: mollo mollo l'asticot {"position":"2850,1050","size":"100,100"}
-[[I need to train myself before]]
+[[I need to train myself before]] 
 
 
-:: public wifi attack {"position":"1775,750","size":"100,100"}
+:: présentation + demandage de pseudo {"position":"950,800","size":"100,100"}
+Ur ringtone is ringing , u wake up at at 1 p.m. like every day, after all.
+U sit on ur used gaming chair drink a redbull and start playing your unique and favorite game League of Legend !
+After 15 min of figth even after all your efforts you loose, you're still bad at it, and another defeat awaits you in the next game.
+You also dream of getting the new skin of arhis but  you remind that you'r unemployed and you don't even have enough money to pay your internet provider.
+The nigth start to fall did you will again sleep later and continue to play or you wan't stop because its ur 20th loose of the day?
 
 
-[[It worked]]
+(set: $name to (prompt: "Enter your name:", ""))
+
+[[Continue to lose]] 
+[[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
+[[sleep and dream of a better life with grass and shower]] 
+
+
+:: public wifi attack {"position":"1700,750","size":"100,100"}
+[[It worked]] 
 
 
 :: sleep and dream of a better life with grass and shower {"position":"1125,1000","size":"100,100"}
-[[SFR calls you]]
-
-
-:: StoryStylesheet [stylesheet]
-tw-story {
-  background: linear-gradient(-45deg, #426C82, #222A3D);
-}
-
-tw-passage {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-tw-link {
-  color: #FAE5BE;
-}
-
-tw-link:hover {
-  color: #FFB73B;
-}
-
-tw-sidebar {
-  display: none;
-}
+[[SFR calls you]] 
