@@ -10,8 +10,13 @@ Fonction twine:
 Passage :
 [[nom prochain passage]]
 
+Passer au prochain passage sans que son nom soit le même que le choix fait
+[[le texte->nom du passage]]
+
 Passage avec condition:
-(if: $variable)[[nom prochain passage]]
+(if: $variable is "")[[nom prochain passage]]
 
 optionnel
 (else:)[[nom prochain passage]]
+
+
