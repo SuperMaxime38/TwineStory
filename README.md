@@ -6,3 +6,12 @@ He have debts to the internet distributor and suddenly one morning he gets calle
 So he start to hack many people with different techniques on free wifi, like man in the middle and some fishing.
 
 
+Fonction twine:
+Passage :
+[[nom prochain passage]]
+
+Passage avec condition:
+(if: $variable)[[nom prochain passage]]
+
+optionnel
+(else:)[[nom prochain passage]]
