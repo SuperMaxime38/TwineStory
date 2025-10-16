@@ -12,12 +12,63 @@ UneSuperHistoire
 }
 
 
-:: A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom). {"position":"1575,875","size":"100,100"}
-Even though you've seen the advice on Reddit, you're still hooked on her Instagram photos, and even if you catch one of the photos she sent (man in the middle), it's just a cute cat photo :( 
-Her phone quickly spots you and she logs off the Wi-Fi (yeah, gotta stay focused—it's not her beach photos that are gonna make you money...)
+:: Ask yourself an existential question about your weight and your level in this game that drives you crazy {"position":"1125,625","size":"100,100"}
 
 
-:: A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information. {"position":"1575,750","size":"100,100"}
+After thinking it over for a long time (2 min 37 sec),
+you decide that life is worth living the way you want to live it, and you decide to get back on LOL, more determined than ever.
+
+[[Continue to lose]]
+
+
+:: Attack the bank fast {"position":"2325,750","size":"100,100"}
+[[Wait they have cyber security ?!]]
+
+
+:: Attack the bank slow {"position":"2325,900","size":"100,100"}
+[[Wait they have cyber security :/]]
+
+
+:: Continue to lose {"position":"1125,800","size":"100,100"}
+After another two hours of intense gaming, it's the same old story: you lose...
+You've given the game your last ounce of strength and you fall asleep with your face on the keyboard.
+Good night ;)
+
+[[sleep and dream of a better life with grass and shower]]
+
+
+:: Fin {"position":"2800,550","size":"100,100"}
+
+
+
+:: I ABSOLUTLY NEED TO FIND MONEY {"position":"1450,750","size":"100,100"}
+I need to find money otherwise I won't be able to play LoL anymore, and I would rather be dead than stopping LoL !!!!!
+
+[[Let's test our skill]]
+
+
+:: I WANT MONEY NOWWW !! {"position":"2075,825","size":"100,100"}
+[[What should I attack ?]]
+
+
+:: I need to train myself before {"position":"3000,525","size":"100,100"}
+[[he learns stuff idk]]
+
+
+:: I want more money {"position":"1950,750","size":"100,100"}
+[[I need to train myself before]] 
+[[I WANT MONEY NOWWW !!]]
+
+
+:: Ignore SFR {"position":"1450,850","size":"100,100"}
+
+
+
+:: It worked {"position":"1825,750","size":"100,100"}
+[[I want more money]]
+
+
+:: Let's test our skill {"position":"1575,750","size":"100,100"}
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
 src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
 frameborder="0" allow="autoplay">
@@ -107,6 +158,36 @@ You now have no connexion and you can't play League Of Legends anymore, you're l
 
 :: It worked {"position":"1900,750","size":"100,100"}
 [[I want more money]]
+:: Loose page {"position":"2925,300","size":"100,100"}
+(set: $money to 140)
+
+<div class="end-card fade-in">
+  <div class="title">GAME OVER</div>
+  <div class="subtle">You lose because of $reason</div>
+
+  <div class="big-money">You have collected: $money€</div>
+
+  (if: $money >= 120)[
+    (set: $money to 0)
+    <div>Tu as réussi à rembourser ta dette. Il reste peut-être une chance de rejouer.</div>
+    <div class="actions">
+      [[Rejouer->Start]]
+    </div>
+  ]
+  (else:)[
+    <div>Tu n’as pas réussi à atteindre les 120€.  
+    Ta connexion est coupée, et le silence t’enveloppe lentement...</div>
+
+    <div class="help-block">
+      Parfois, même les plus grands (et les pires) joueurs ont une fin.  
+    </div>
+
+    <div class="actions">
+      [[Fin]]
+    </div>
+  ]
+</div>
+
 
 
 :: SFR calls you {"position":"1300,800","size":"100,100"}
@@ -119,8 +200,12 @@ So you wonder what to do. Ignore these threats and continue playing your favorit
 [[Ignore SFR]]
 
 
-:: The cops are in front of my house {"position":"2775,675","size":"100,100"}
+:: Start {"position":"2862.5,425","size":"100,100"}
 
+
+
+:: The cops are in front of my house {"position":"2700,675","size":"100,100"}
+Loose
 
 
 :: Wait they have cyber security :/ {"position":"2525,900","size":"100,100"}
@@ -128,7 +213,7 @@ So you wonder what to do. Ignore these threats and continue playing your favorit
 [[mollo mollo l'asticot]]
 
 
-:: Wait they have cyber security ?! {"position":"2525,675","size":"100,100"}
+:: Wait they have cyber security ?! {"position":"2450,675","size":"100,100"}
 [[Woops I doxed my adress]]
 
 
@@ -137,7 +222,7 @@ So you wonder what to do. Ignore these threats and continue playing your favorit
 [[Attack the bank slow]]
 
 
-:: Woops I doxed my adress {"position":"2650,675","size":"100,100"}
+:: Woops I doxed my adress {"position":"2575,675","size":"100,100"}
 [[The cops are in front of my house]]
 
 
@@ -153,7 +238,7 @@ So you wonder what to do. Ignore these threats and continue playing your favorit
 
 
 
-:: keep going {"position":"2650,850","size":"100,100"}
+:: keep going {"position":"2575,850","size":"100,100"}
 [[he's dead :( (bcs he can't play lol anymore)]]
 
 
@@ -161,9 +246,24 @@ So you wonder what to do. Ignore these threats and continue playing your favorit
 [[I need to train myself before]]
 
 
-:: public wifi attack {"position":"1775,750","size":"100,100"}
+:: présentation + demandage de pseudo {"position":"950,800","size":"100,100"}
+(set: $name to (prompt: "Enter your name:", ""))
+
+Ur ringtone is ringing , u wake up at at 1 p.m. like every day, after all.
+U sit on ur used gaming chair drink a redbull and start playing your unique and favorite game League of Legend !
+After 15 min of figth even after all your efforts you loose, you're still bad at it, and another defeat awaits you in the next game.
+You also dream of getting the new skin of arhis but  you remind that you'r unemployed and you don't even have enough money to pay your internet provider.
+The nigth start to fall did you will again sleep later and continue to play or you wan't stop because its ur 20th loose of the day?
 
 
+
+
+[[Continue to lose]] 
+[[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
+[[sleep and dream of a better life with grass and shower]]
+
+
+:: public wifi attack {"position":"1700,750","size":"100,100"}
 [[It worked]]
 
 
@@ -191,3 +291,130 @@ tw-link:hover {
 tw-sidebar {
   display: none;
 }
+/* ====== Style général ====== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', monospace;
+  background: radial-gradient(circle at center, #000000 0%, #1a0000 70%);
+  color: #ff0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ====== Carte principale ====== */
+.end-card {
+  text-align: center;
+  max-width: 600px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.75);
+  border: 3px solid #ff0000;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #ff0000;
+  animation: pulseBorder 3s infinite alternate;
+}
+
+/* ====== Titre principal ====== */
+.title {
+  font-size: 3rem;
+  color: #ff1a1a;
+  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
+  margin-bottom: 20px;
+  animation: flicker 2s infinite;
+}
+
+/* ====== Sous-texte ====== */
+.subtle {
+  font-size: 1rem;
+  color: #ff8080;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+/* ====== Montant récolté ====== */
+.big-money {
+  font-size: 1.2rem;
+  color: #ffff66;
+  text-shadow: 0 0 5px #ffff00;
+  margin-bottom: 30px;
+}
+
+/* ====== Boutons ====== */
+.actions {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.btn:hover {
+  background: #ff0000;
+  box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+
+.btn--primary {
+  border-color: #00ffcc;
+  color: #00ffcc;
+}
+
+.btn--primary:hover {
+  background: #00ffcc;
+  color: #000;
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+/* ====== Texte d’aide ====== */
+.help-block {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #ff9999;
+}
+
+/* ====== Effets d’animation ====== */
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes pulseBorder {
+  from {
+    box-shadow: 0 0 10px #ff0000;
+  }
+  to {
+    box-shadow: 0 0 30px #ff0000;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ====== Effet rétro console ====== */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+      
