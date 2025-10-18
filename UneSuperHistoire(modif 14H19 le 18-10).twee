@@ -1,0 +1,415 @@
+:: StoryTitle
+UneSuperHistoire
+
+
+:: StoryData
+{
+  "ifid": "3B99F9C6-3026-42EC-8C2E-C7EA95792606",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Beggining",
+  "zoom": 1
+}
+
+
+:: A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom). {"position":"1550,875","size":"100,100"}
+Even though you've seen the advice on Reddit, you're still hooked on her Instagram photos, and even if you catch one of the photos she sent (man in the middle), it's just a cute cat photo :( 
+Her phone quickly spots you and she logs off the Wi-Fi (yeah, gotta stay focused—it's not her beach photos that are gonna make you money...)
+
+[[Ok let's hack the student->A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
+
+[[Ok let's hack the elder->A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information.]]
+
+
+:: A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information. {"position":"1650,700","size":"100,100"}
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
+frameborder="0" allow="autoplay">
+</iframe>
+
+[[I will hack his webcam->public wifi attack]]
+
+
+:: A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money). {"position":"1525,575","size":"100,100"}
+Unfortunately, the penniless student is no myth, and all you manage to get from him is his student IDnumber and his IZLY account (which has been empty for some time).
+His situation is understandable, given how stingy his parents are (you can't find any way to get even a few cents out of them, which makes you almost feel sorry for him).
+
+
+:: Ask yourself an existential question about your weight and your level in this game that drives you crazy {"position":"1125,625","size":"100,100"}
+After thinking it over for a long time (2 min 37 sec),
+you decide that life is worth living the way you want to live it, and you decide to get back on LOL, more determined than ever.
+
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/8On78J3vLr4?autoplay=1&loop=1&playlist=8On78J3vLr4" 
+frameborder="0" allow="autoplay">
+</iframe>
+
+[[Continue to lose]]
+
+
+:: Attack the bank fast {"position":"2400,750","size":"100,100"}
+[[Wait they have cyber security ?!]]
+
+
+:: Attack the bank slow {"position":"2400,900","size":"100,100"}
+[[Wait they have cyber security :/]]
+
+
+:: Beggining {"position":"775,750","size":"100,100"}
+(set: $name to (prompt: "Enter your name:", ""))
+
+{
+(if: $name is not "") [
+	(go-to: "First")
+    
+    ]
+(else:)[
+	(go-to: "Beggining")
+    ]
+}
+
+
+:: Continue to lose {"position":"1125,800","size":"100,100"}
+After another two hours of intense gaming, it's the same old story: you lose...
+You've given the game your last ounce of strength and you fall asleep with your face on the keyboard.
+Good night ;)
+
+[[sleep and dream of a better life with grass and shower]]
+
+
+:: Fin {"position":"3250,300","size":"100,100"}
+
+
+
+:: First {"position":"925,750","size":"100,100"}
+Your ringtone is ringing , you wake up at at 1 p.m. like every day, after all.
+You sit on your used gaming chair drink a redbull and start playing your unique and favorite game League of Legend !
+After 15 min of fight even after all your efforts you lose, you're still bad at it, and another defeat awaits you in the next game.
+You also dream of getting the new skin of arhis but  you remind that you're unemployed and you don't even have enough money to pay your internet provider.
+The night start to fall, will you sleep later and continue to play or you won't stop because its your 20th lose of the day?
+
+[[Continue to lose]] 
+[[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
+[[sleep and dream of a better life with grass and shower]]
+
+
+:: I ABSOLUTLY NEED TO FIND MONEY {"position":"1450,750","size":"100,100"}
+Forced to find a way to get money, you decide to abandon the idea of robbing a homeless person (it wouldn't bring in enough, you'd have to do it too many times...). However, you've always been good at hacking and dodging security systems on the internet.
+After searching around online, you come across a really helpful Reddit thread on how to access a device on free Wi-Fi.
+This is perfect because you live below a pretty busy bar where you've always been able to use the Wi-Fi, even though it's not as bad as you'd think.
+So, on Monday morning (it's already 3 p.m., but you've just woken up), you decide to delve deeper into this network, which is certainly not the most fiable.
+But there's nothing interesting, since most users are just checking their emails or watching boring videos, so you'll have to wait until tonight to get more interesting information (yet another reason to play XD).
+After a couple of 20 games, each worse than the last, you decide to check out the famous Wi-Fi that's supposed to make you rich in a few days, and you quickly realize that you're not the only one using it at night.
+Several profiles come to you:
+
+[[A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
+
+[[A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information.]]
+
+[[A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom).]]
+
+
+:: I WANT MONEY NOWWW !! {"position":"2150,825","size":"100,100"}
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/o0ZpesMYF6A?autoplay=1&loop=1&playlist=o0ZpesMYF6A" 
+frameborder="0" allow="autoplay">
+</iframe>
+[[What should I attack ?]]
+
+
+:: I need to train myself before {"position":"3000,525","size":"100,100"}
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/ODpmhq6CYYk?autoplay=1&loop=1&playlist=ODpmhq6CYYk" 
+frameborder="0" allow="autoplay">
+</iframe>
+[[he learns stuff idk]]
+
+
+:: I want more money {"position":"2025,750","size":"100,100"}
+So you want more, some people can fight for a jar of Nutella at 75% discount so you don't feel ashamed. The new bundle came out on the LoL shop and you want it, but are you ready to hack something bigger to be able to get enough money ?
+
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/S5uZBz_8XV0?autoplay=1&loop=1&playlist=S5uZBz_8XV0" 
+frameborder="0" allow="autoplay">
+</iframe>
+[[I need to train myself before]] 
+[[I WANT MONEY NOWWW !!]]
+
+
+:: Ignore SFR {"position":"1425,900","size":"100,100"}
+You thought SFR wouldn't dare to cut your internet, but they did...
+You now have no connexion and you can't play League Of Legends anymore, you're lonely and depressed.
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/K3kFQHKE0LA?autoplay=1&loop=1&playlist=K3kFQHKE0LA" 
+frameborder="0" >
+</iframe>
+
+{
+(set: _time to 6)
+(live: 1s)[(set: _time to it - 1)
+	(if: _time is 0)[
+		(goto: "Lose page")
+	]
+]
+}
+
+
+:: It worked {"position":"1900,750","size":"100,100"}
+The elder gave you the 50$ as you wished. 50$ is great but with more money you could not only pay your internet bills but also buy new skins in game.
+
+[[I want more money]]
+
+
+:: Lose page {"position":"3025,300","size":"100,100"}
+(set: $money to 140)
+
+<div class="end-card fade-in">
+  <div class="title">GAME OVER</div>
+  <div class="subtle">You lose because of $reason</div>
+
+  <div class="big-money">You have collected: $money€</div>
+
+  (if: $money >= 120)[
+    (set: $money to 0)
+    <div class="subtle">Tu as réussi à rembourser ta dette. Il reste peut-être une chance de rejouer.</div>
+    <div class="title">
+      [[Rejouer->First]]
+    </div>
+  ]
+  (else:)[
+    <div>Tu n’as pas réussi à atteindre les 120€.  
+    Ta connexion est coupée, et le silence t’enveloppe lentement...</div>
+
+    <div class="help-block">
+      Parfois, même les plus grands (et les pires) joueurs ont une fin.  
+    </div>
+
+    <div class="actions">
+      [[Fin]]
+    </div>
+  ]
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/AicYU0WBDLw?autoplay=1&loop=1&playlist=AicYU0WBDLw" 
+frameborder="0" allow="autoplay">
+</iframe>
+</div>
+
+
+:: SFR calls you {"position":"1300,800","size":"100,100"}
+The next day, you wake up at 1 p.m. again, but today it's not your alarm clock that wakes you up, but your phone ringing. 
+It's SFR! You start talking to them, but the tone escalates. They remind you that you are already four months behind on your subscription and that the late fees are skyrocketing.
+Finally, you can no longer ask for more time, and they end up telling you that in two days, you will have to pay 120 euros. They hang up on you. 
+So you wonder what to do. Ignore these threats and continue playing your favorite games, or look for a way to earn money?
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/Ky2mly1gIQU?autoplay=1&loop=1&playlist=Ky2mly1gIQU" 
+frameborder="0" allow="autoplay">
+</iframe>
+
+[[I ABSOLUTLY NEED TO FIND MONEY]] 
+[[Ignore SFR]]
+
+
+:: The cops are in front of my house {"position":"2775,675","size":"100,100"}
+The cops have your adress and now they are in front of your house.
+
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/VM3uXu1Dq4c?autoplay=1&loop=1&playlist=VM3uXu1Dq4c" 
+frameborder="0" allow="autoplay">
+</iframe>
+
+[[Lose page]]
+
+
+:: Wait they have cyber security :/ {"position":"2525,900","size":"100,100"}
+[[keep going]] 
+[[mollo mollo l'asticot]]
+
+
+:: Wait they have cyber security ?! {"position":"2525,675","size":"100,100"}
+[[Woops I doxed my adress]]
+
+
+:: What should I attack ? {"position":"2275,825","size":"100,100"}
+[[Attack the bank fast]] 
+[[Attack the bank slow]]
+
+
+:: Woops I doxed my adress {"position":"2650,675","size":"100,100"}
+[[The cops are in front of my house]]
+
+
+:: he learns stuff idk {"position":"3125,525","size":"100,100"}
+[[he's now better >:)]]
+
+
+:: he's now better >:) {"position":"3250,525","size":"100,100"}
+
+
+
+:: keep going {"position":"2650,900","size":"100,100"}
+Well you miss clicked and enabled your webcam, now the cybersecurity service now your face and they located you.
+[[The cops are in front of my house]]
+
+
+:: mollo mollo l'asticot {"position":"2850,1200","size":"100,100"}
+[[I need to train myself before]]
+
+
+:: public wifi attack {"position":"1775,725","size":"100,100"}
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
+frameborder="0" allow="autoplay">
+</iframe>
+
+[[It worked]]
+
+
+:: sleep and dream of a better life with grass and shower {"position":"1125,1000","size":"100,100"}
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/4xqFVWqM-k4?autoplay=1&loop=1&playlist=4xqFVWqM-k4" 
+frameborder="0" allow="autoplay">
+</iframe>
+
+[[SFR calls you]]
+
+
+:: StoryStylesheet [stylesheet]
+tw-story {
+  background: linear-gradient(-45deg, #426C82, #222A3D);
+}
+
+tw-passage {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+tw-link {
+  color: #FAE5BE;
+}
+
+tw-link:hover {
+  color: #FFB73B;
+}
+
+tw-sidebar {
+  display: none;
+}
+/* ====== Style général ====== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', monospace;
+  background: radial-gradient(circle at center, #000000 0%, #1a0000 70%);
+  color: #ff0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ====== Carte principale ====== */
+.end-card {
+  text-align: center;
+  max-width: 600px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.75);
+  border: 3px solid #ff0000;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #ff0000;
+  animation: pulseBorder 3s infinite alternate;
+}
+
+/* ====== Titre principal ====== */
+.title {
+  font-size: 3rem;
+  color: 4B258A;
+  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
+  margin-bottom: 20px;
+  animation: flicker 2s infinite;
+}
+
+/* ====== Sous-texte ====== */
+.subtle {
+  font-size: 2rem;
+   color:4B258A;
+  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
+  margin-bottom: 20px;
+  animation: flicker 2s infinite;
+}
+.big-money {
+  font-size: 1.2rem;
+  color: 4B258A;
+  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.btn:hover {
+  background: #ff0000;
+  box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+}
+
+.btn--primary {
+  border-color: #00ffcc;
+  color: #00ffcc;
+}
+
+.btn--primary:hover {
+  background: #00ffcc;
+  color: #000;
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+/* ====== Texte d’aide ====== */
+.help-block {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #ff9999;
+}
+
+/* ====== Effets d’animation ====== */
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes pulseBorder {
+  from {
+    box-shadow: 0 0 10px #ff0000;
+  }
+  to {
+    box-shadow: 0 0 30px #ff0000;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ====== Effet rétro console ====== */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
