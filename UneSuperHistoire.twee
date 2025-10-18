@@ -12,17 +12,29 @@ UneSuperHistoire
 }
 
 
+:: \ Hack the bank a 2nd time {"position":"3375,525","size":"100,100"}
+You <strong>need</strong> this money so you have to take risks.
+They still have cybersecurity but you may have the power now to defeat them.
+
+How to proceed ?
+
+[[Trojan Horse]]
+[[Brute-force attack]]
+[[find a Zero-day vulnerability]]
+
+
 :: A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom). {"position":"1550,875","size":"100,100"}
+(set: $goodChoices to $goodChoices-1)
 Even though you've seen the advice on Reddit, you're still hooked on her Instagram photos, and even if you catch one of the photos she sent (man in the middle), it's just a cute cat photo :( 
 Her phone quickly spots you and she logs off the Wi-Fi (yeah, gotta stay focused—it's not her beach photos that are gonna make you money...)
 
 [[Ok let's hack the student->A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
 
-[[Ok let's hack the elder->A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information.]] 
+[[Ok let's hack the elder->A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information.]]
 
 
 :: A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information. {"position":"1650,700","size":"100,100"}
-
+(set: $goodChoices to $goodChoices+1)
 
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
 src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
@@ -33,8 +45,10 @@ frameborder="0" allow="autoplay">
 
 
 :: A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money). {"position":"1525,575","size":"100,100"}
-Unfortunately, the penniless student is no myth, and all you manage to get from him is his student IDnumber and his IZLY account (which has been empty for some time).
+Unfortunately, the penniless student is no myth, and all you manage to get from him is his student ID number and his IZLY account (which has been empty for some time).
 His situation is understandable, given how stingy his parents are (you can't find any way to get even a few cents out of them, which makes you almost feel sorry for him).
+
+[[The sun is setting]]
 
 
 :: Ask yourself an existential question about your weight and your level in this game that drives you crazy {"position":"1125,625","size":"100,100"}
@@ -49,16 +63,18 @@ frameborder="0" allow="autoplay">
 [[Continue to lose]]
 
 
-:: Attack the bank fast {"position":"2400,750","size":"100,100"}
+:: Attack the bank fast {"position":"2400,600","size":"100,100"}
 [[Wait they have cyber security ?!]]
 
 
-:: Attack the bank slow {"position":"2400,900","size":"100,100"}
+:: Attack the bank slow {"position":"2400,700","size":"100,100"}
 [[Wait they have cyber security :/]]
 
 
 :: Beggining {"position":"775,750","size":"100,100"}
 (set: $name to (prompt: "Enter your name:", ""))
+(set: $goodChoices to 0)
+(set:$money to 0)
 
 {
 (if: $name is not "") [
@@ -71,6 +87,21 @@ frameborder="0" allow="autoplay">
 }
 
 
+:: Brute-force attack {"position":"3525,525","size":"100,100"}
+*INSERT TEXT HERE*
+
+{
+(if: $goodChoices is 2)[
+	(set: $brute_force_suceed to true)
+	[[Press 'enter' ->execute attack (brute force)]]
+]
+(else:)[
+	(set: $brute_force_suceed to false)
+    [[Press 'enter' ->execute attack (brute force)]]
+]
+}
+
+
 :: Continue to lose {"position":"1125,800","size":"100,100"}
 After another two hours of intense gaming, it's the same old story: you lose...
 You've given the game your last ounce of strength and you fall asleep with your face on the keyboard.
@@ -79,7 +110,11 @@ Good night ;)
 [[sleep and dream of a better life with grass and shower]]
 
 
-:: Fin {"position":"3250,300","size":"100,100"}
+:: Envoyer un mail {"position":"3675,275","size":"100,100"}
+
+
+
+:: Fin {"position":"3125,300","size":"100,100"}
 
 
 
@@ -111,7 +146,8 @@ Several profiles come to you:
 [[A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom).]]
 
 
-:: I WANT MONEY NOWWW !! {"position":"2150,825","size":"100,100"}
+:: I WANT MONEY NOWWW !! {"position":"2150,775","size":"100,100"}
+(set: $goodChoices to $goodChoices-1)
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
 src="https://www.youtube.com/embed/o0ZpesMYF6A?autoplay=1&loop=1&playlist=o0ZpesMYF6A" 
 frameborder="0" allow="autoplay">
@@ -120,6 +156,7 @@ frameborder="0" allow="autoplay">
 
 
 :: I need to train myself before {"position":"3000,525","size":"100,100"}
+(set: $goodChoices to $goodChoices+1)
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
 src="https://www.youtube.com/embed/ODpmhq6CYYk?autoplay=1&loop=1&playlist=ODpmhq6CYYk" 
 frameborder="0" allow="autoplay">
@@ -146,6 +183,7 @@ src="https://www.youtube.com/embed/K3kFQHKE0LA?autoplay=1&loop=1&playlist=K3kFQH
 frameborder="0" >
 </iframe>
 
+(set: $reason to "you can't live without LoL")
 {
 (set: _time to 6)
 (live: 1s)[(set: _time to it - 1)
@@ -162,12 +200,12 @@ The elder gave you the 50$ as you wished. 50$ is great but with more money you c
 [[I want more money]]
 
 
-:: Lose page {"position":"3025,300","size":"100,100"}
+:: Lose page {"position":"3000,300","size":"100,100"}
 (set: $money to 140)
 
 <div class="end-card fade-in">
   <div class="title">GAME OVER</div>
-  <div class="subtle">You lose because of $reason</div>
+  <div class="subtle">You lose because $reason</div>
 
   <div class="big-money">You have collected: $money€</div>
 
@@ -197,6 +235,15 @@ frameborder="0" allow="autoplay">
 </div>
 
 
+:: PANIC AND BEG FOR MERCY {"position":"3925,575","size":"100,100"}
+It seems that your last games of LoL fired the few remaining neurons that was still alive in your brain.
+[[Woops I doxed my adress]] 
+
+
+:: Passage sans titre {"position":"3675,750","size":"100,100"}
+
+
+
 :: SFR calls you {"position":"1300,800","size":"100,100"}
 The next day, you wake up at 1 p.m. again, but today it's not your alarm clock that wakes you up, but your phone ringing. 
 It's SFR! You start talking to them, but the tone escalates. They remind you that you are already four months behind on your subscription and that the late fees are skyrocketing.
@@ -211,49 +258,97 @@ frameborder="0" allow="autoplay">
 [[Ignore SFR]]
 
 
-:: The cops are in front of my house {"position":"2775,675","size":"100,100"}
-[[Lose page]] 
+:: The cops are in front of my house {"position":"2700,600","size":"100,100"}
+(set: $reason to "you got arrested")
+[[Lose page]]
 
 
-:: Wait they have cyber security :/ {"position":"2525,900","size":"100,100"}
+:: The sun is setting {"position":"1650,500","size":"100,100"}
+You look up and see the sun piercing the cloud in the horizon. It's been a while since you haven't seen this giant ball of burning gas. This student wasted your time and you now that you don't have enough left to do anything...
+
+(set: $reason to "you don't have enough time to gather the money you needed")
+{
+(set: _time to 6)
+(live: 1s)[(set: _time to it - 1)
+	(if: _time is 0)[
+		(goto: "Lose page")
+	]
+]
+}
+
+
+:: Trojan Horse {"position":"3525,350","size":"100,100"}
+[[Envoyer un mail]] 
+
+
+:: Wait they have cyber security :/ {"position":"2550,825","size":"100,100"}
 [[keep going]] 
 [[mollo mollo l'asticot]]
 
 
-:: Wait they have cyber security ?! {"position":"2525,675","size":"100,100"}
+:: Wait they have cyber security ?! {"position":"2500,600","size":"100,100"}
 [[Woops I doxed my adress]]
 
 
-:: What should I attack ? {"position":"2275,825","size":"100,100"}
+:: What should I attack ? {"position":"2275,700","size":"100,100"}
+You want money.
+
 [[Attack the bank fast]] 
 [[Attack the bank slow]]
 
 
-:: Woops I doxed my adress {"position":"2650,675","size":"100,100"}
+:: Woops I doxed my adress {"position":"2600,600","size":"100,100"}
 [[The cops are in front of my house]]
 
 
+:: change of plan {"position":"3825,575","size":"100,100"}
+Unfortunately, the bank's cybersecurity department are not apes. They detected your trial to brute-force them. You still got time to change your plans and choose another strategy.
+
+[[DON'T PANIC AND SEND A TROJAN HORSE ->Trojan Horse]] 
+[[DON'T PANIC AND FIND A ZERO-DAY VULNERABILITY->find a Zero-day vulnerability]] 
+[[PANIC AND BEG FOR MERCY]]
+
+
+:: execute attack (brute force) {"position":"3700,525","size":"100,100"}
+(set: _event to (random: 1, 2))
+{
+(if: $brute_force_suceed is true) [
+	(go-to: "suceed_brute_force")
+]
+(else-if: _event is 1) [
+	(go-to: "change of plan")
+]
+(else:)[
+	(set: $reason to "Did you really think that you could brute-force a bank ?")
+    (go-to: "Lose page")
+
+]
+}
+
+
+:: find a Zero-day vulnerability {"position":"3525,700","size":"100,100"}
+
+
+
 :: he learns stuff idk {"position":"3125,525","size":"100,100"}
-[[he's now better >:)]]
+[[You are now a real hacker ->he's now better >:)]]
 
 
 :: he's now better >:) {"position":"3250,525","size":"100,100"}
+You're now a great hacker, if you had more than 3IQ you would have realized that if you spent all the time you wasted on LoL to do something of your life you would be really good at it. But you're a LoL player and you won't have redemption. Two days has passed and the time is ticking you don't have a lot of time left before SFR stop your internet.
+[[I have no other choices than trying again to hack this bank -> Hack the bank a 2nd time]] 
 
 
-
-:: keep going {"position":"2650,900","size":"100,100"}
+:: keep going {"position":"2700,700","size":"100,100"}
 Well you miss clicked and enabled your webcam, now the cybersecurity service now your face and they located you.
-[[The cops are in front of my house]] 
+[[The cops are in front of my house]]
 
 
-:: mollo mollo l'asticot {"position":"2850,1200","size":"100,100"}
+:: mollo mollo l'asticot {"position":"2700,825","size":"100,100"}
 [[I need to train myself before]]
 
 
 :: public wifi attack {"position":"1775,725","size":"100,100"}
-
-
-
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
 src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
 frameborder="0" allow="autoplay">
@@ -263,12 +358,18 @@ frameborder="0" allow="autoplay">
 
 
 :: sleep and dream of a better life with grass and shower {"position":"1125,1000","size":"100,100"}
+You're not sleeping well and you dream of all your lost games. You can hear a voice whisper to you that you're going to stay hardstuck bronze until your death.
+
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
 src="https://www.youtube.com/embed/4xqFVWqM-k4?autoplay=1&loop=1&playlist=4xqFVWqM-k4" 
 frameborder="0" allow="autoplay">
 </iframe>
 
-[[SFR calls you]]
+[[Wake up->SFR calls you]]
+
+
+:: suceed_brute_force {"position":"3825,475","size":"100,100"}
+GO-TO GOOD ENDING
 
 
 :: StoryStylesheet [stylesheet]
