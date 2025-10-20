@@ -119,6 +119,9 @@ Good night ;)
 
 
 :: First {"position":"925,750","size":"100,100"}
+<div class="Titrenom">(align:"=><=")[Wake up $name !!] </div class =
+"Titrenom">
+
 Your ringtone is ringing , you wake up at at 1 p.m. like every day, after all.
 You sit on your used gaming chair drink a redbull and start playing your unique and favorite game League of Legend !
 After 15 min of fight even after all your efforts you lose, you're still bad at it, and another defeat awaits you in the next game.
@@ -130,14 +133,14 @@ The night start to fall, will you sleep later and continue to play or you won't 
 [[sleep and dream of a better life with grass and shower]]
 
 
-:: I ABSOLUTLY NEED TO FIND MONEY {"position":"1450,750","size":"100,100"}
-Forced to find a way to get money, you decide to abandon the idea of robbing a homeless person (it wouldn't bring in enough, you'd have to do it too many times...). However, you've always been good at hacking and dodging security systems on the internet.
+:: I ABSOLUTLY NEED TO FIND MONEY {"position":"1425,700","size":"100,100"}
+<div class="Long">[Forced to find a way to get money, you decide to abandon the idea of robbing a homeless person (it wouldn't bring in enough, you'd have to do it too many times...). However, you've always been good at hacking and dodging security systems on the internet.
 After searching around online, you come across a really helpful Reddit thread on how to access a device on free Wi-Fi.
 This is perfect because you live below a pretty busy bar where you've always been able to use the Wi-Fi, even though it's not as bad as you'd think.
 So, on Monday morning (it's already 3 p.m., but you've just woken up), you decide to delve deeper into this network, which is certainly not the most fiable.
 But there's nothing interesting, since most users are just checking their emails or watching boring videos, so you'll have to wait until tonight to get more interesting information (yet another reason to play XD).
 After a couple of 20 games, each worse than the last, you decide to check out the famous Wi-Fi that's supposed to make you rich in a few days, and you quickly realize that you're not the only one using it at night.
-Several profiles come to you:
+Several profiles come to you:]
 
 [[A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
 
@@ -145,6 +148,7 @@ Several profiles come to you:
 
 [[A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom).]]
 
+</div class="Long">
 
 :: I WANT MONEY NOWWW !! {"position":"2150,775","size":"100,100"}
 (set: $goodChoices to $goodChoices-1)
@@ -201,7 +205,6 @@ The elder gave you the 50$ as you wished. 50$ is great but with more money you c
 
 
 :: Lose page {"position":"3000,300","size":"100,100"}
-(set: $money to 140)
 
 <div class="end-card fade-in">
   <div class="title">GAME OVER</div>
@@ -512,3 +515,16 @@ body {
 
 /* ====== Effet rétro console ====== */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.Titrenom{
+  font-size: 3rem;
+  color:#4682B4;
+  margin-bottom: 20px;
+  animation: flicker 2s infinite;
+}
+
+.Long {
+  max-height: 100%;
+  font-size: 0.8em;
+ 
+}
