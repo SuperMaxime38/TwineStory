@@ -119,8 +119,9 @@ Good night ;)
 
 
 :: First {"position":"925,750","size":"100,100"}
-<div class="Titrenom">(align:"=><=")[Wake up $name !!] </div class =
-"Titrenom">
+<img src="https://github.com/SuperMaxime38/TwineStory/blob/main/ChatGPT%20Image%209%20oct.%202025,%2011_03_46.png?raw=true" style="object-fit: fill;">
+<div class="Titrenom" style="z-index: 1">(align:"=><=")[Wake up $name !!]
+</div>
 
 Your ringtone is ringing , you wake up at at 1 p.m. like every day, after all.
 You sit on your used gaming chair drink a redbull and start playing your unique and favorite game League of Legend !
@@ -131,6 +132,7 @@ The night start to fall, will you sleep later and continue to play or you won't 
 [[Continue to lose]] 
 [[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
 [[sleep and dream of a better life with grass and shower]]
+
 
 
 :: I ABSOLUTLY NEED TO FIND MONEY {"position":"1425,700","size":"100,100"}
@@ -149,6 +151,7 @@ Several profiles come to you:]
 [[A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom).]]
 
 </div class="Long">
+
 
 :: I WANT MONEY NOWWW !! {"position":"2150,775","size":"100,100"}
 (set: $goodChoices to $goodChoices-1)
@@ -205,7 +208,6 @@ The elder gave you the 50$ as you wished. 50$ is great but with more money you c
 
 
 :: Lose page {"position":"3000,300","size":"100,100"}
-
 <div class="end-card fade-in">
   <div class="title">GAME OVER</div>
   <div class="subtle">You lose because $reason</div>
@@ -240,11 +242,45 @@ frameborder="0" allow="autoplay">
 
 :: PANIC AND BEG FOR MERCY {"position":"3925,575","size":"100,100"}
 It seems that your last games of LoL fired the few remaining neurons that was still alive in your brain.
-[[Woops I doxed my adress]] 
+[[Woops I doxed my adress]]
 
 
-:: Passage sans titre {"position":"3675,750","size":"100,100"}
+:: Passage sans titre {"position":"3650,1100","size":"100,100"}
+*ENTREE DANS LE SYSTEME*
 
+
+:: Passage sans titre 1 {"position":"3875,725","size":"100,100"}
+*INJECTION SQL*
+
+
+:: Passage sans titre 2 {"position":"3825,1100","size":"100,100"}
+*LOOK FOR TOKENS LEAKED ON GITHUB*
+
+
+:: Passage sans titre 3 {"position":"3875,1475","size":"100,100"}
+*TRY TO LOG INTO UR 'CONSEILLER BANCAIRE' ACCOUNT AND CLICK ON 'FORGET PASSWORD'*
+
+
+:: Passage sans titre 4 {"position":"4100,700","size":"100,100"}
+*TYPE HERE A WORKING SQL INJECTION*
+
+
+:: Passage sans titre 5 {"position":"4100,825","size":"100,100"}
+*TYPE HERE A BAD SQL INJECTION*
+
+
+:: Passage sans titre 6 {"position":"3975,1025","size":"100,100"}
+*SEARCH IN config.json*
+
+
+:: Passage sans titre 7 {"position":"3975,1150","size":"100,100"}
+*SEARCH IN main.f90*
+
+-> going to fail bro who can rrly read fortran code ?
+
+
+:: Passage sans titre 8 {"position":"4050,1475","size":"100,100"}
+You remember that you don't have the password of your 'conseiller bancaire'
 
 
 :: SFR calls you {"position":"1300,800","size":"100,100"}
@@ -281,7 +317,7 @@ You look up and see the sun piercing the cloud in the horizon. It's been a while
 
 
 :: Trojan Horse {"position":"3525,350","size":"100,100"}
-[[Envoyer un mail]] 
+[[Envoyer un mail]]
 
 
 :: Wait they have cyber security :/ {"position":"2550,825","size":"100,100"}
@@ -330,7 +366,11 @@ Unfortunately, the bank's cybersecurity department are not apes. They detected y
 
 
 :: find a Zero-day vulnerability {"position":"3525,700","size":"100,100"}
+Que des bons choix: 75% win, 25% 2nd truc
 
+sinon: 
+ptit jeux tah la QCM (jsp moi) où si tu fail tu perds
+si tu réussi tu gagnes
 
 
 :: he learns stuff idk {"position":"3125,525","size":"100,100"}
@@ -339,7 +379,7 @@ Unfortunately, the bank's cybersecurity department are not apes. They detected y
 
 :: he's now better >:) {"position":"3250,525","size":"100,100"}
 You're now a great hacker, if you had more than 3IQ you would have realized that if you spent all the time you wasted on LoL to do something of your life you would be really good at it. But you're a LoL player and you won't have redemption. Two days has passed and the time is ticking you don't have a lot of time left before SFR stop your internet.
-[[I have no other choices than trying again to hack this bank -> Hack the bank a 2nd time]] 
+[[I have no other choices than trying again to hack this bank -> Hack the bank a 2nd time]]
 
 
 :: keep going {"position":"2700,700","size":"100,100"}
@@ -378,6 +418,10 @@ GO-TO GOOD ENDING
 :: StoryStylesheet [stylesheet]
 tw-story {
   background: linear-gradient(-45deg, #426C82, #222A3D);
+}
+
+tw-story.lol_player1 {
+  background-color: red;
 }
 
 tw-passage {
