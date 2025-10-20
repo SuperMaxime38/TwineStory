@@ -1,14 +1,14 @@
-:: StoryTitle
+StoryTitle
 UneSuperHistoire
 
 
 :: StoryData
 {
-  "ifid": "3B99F9C6-3026-42EC-8C2E-C7EA95792606",
-  "format": "Harlowe",
-  "format-version": "3.3.9",
-  "start": "Beggining",
-  "zoom": 1
+  "ifid": "3B99F9C6-3026-42EC-8C2E-C7EA95792606",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Disclaimer",
+  "zoom": 1
 }
 
 
@@ -24,21 +24,21 @@ How to proceed ?
 
 
 :: A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom). {"position":"1550,875","size":"100,100"}
-(set: $goodChoices to $goodChoices-1)
-Even though you've seen the advice on Reddit, you're still hooked on her Instagram photos, and even if you catch one of the photos she sent (man in the middle), it's just a cute cat photo :( 
+(set: $goodChoices to $goodChoices - 1)
+Even though you've seen the advice on Reddit, you're still hooked on her Instagram photos, and even if you catch one of the photos she sent (man in the middle), it's just a cute cat photo :( 
 Her phone quickly spots you and she logs off the Wi-Fi (yeah, gotta stay focused—it's not her beach photos that are gonna make you money...)
 
-[[Ok let's hack the student->A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
+[[Ok let's hack the student->A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
 
 [[Ok let's hack the elder->A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information.]]
 
 
 :: A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information. {"position":"1650,700","size":"100,100"}
-(set: $goodChoices to $goodChoices+1)
+(set: $goodChoices to $goodChoices + 1)
 
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
-frameborder="0" allow="autoplay">
+src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 
 [[I will hack his webcam->public wifi attack]]
@@ -56,8 +56,8 @@ After thinking it over for a long time (2 min 37 sec),
 you decide that life is worth living the way you want to live it, and you decide to get back on LOL, more determined than ever.
 
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/8On78J3vLr4?autoplay=1&loop=1&playlist=8On78J3vLr4" 
-frameborder="0" allow="autoplay">
+src="https://www.youtube.com/embed/8On78J3vLr4?autoplay=1&loop=1&playlist=8On78J3vLr4" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 
 [[Continue to lose]]
@@ -74,21 +74,20 @@ frameborder="0" allow="autoplay">
 :: Beggining {"position":"775,750","size":"100,100"}
 (set: $name to (prompt: "Enter your name:", ""))
 (set: $goodChoices to 0)
-(set:$money to 0)
+(set: $money to 0)
 
 {
-(if: $name is not "") [
+(if: $name is not "")[
 	(go-to: "First")
-    
-    ]
+]
 (else:)[
 	(go-to: "Beggining")
-    ]
+]
 }
 
 
 :: Brute-force attack {"position":"3525,525","size":"100,100"}
-*INSERT TEXT HERE*
+You decide to overwhelm the bank's login system by trying millions of combinations per second. This is a very noisy and risky strategy, but if they have weak, old protection, it could work instantly.
 
 {
 (if: $goodChoices is 2)[
@@ -97,7 +96,7 @@ frameborder="0" allow="autoplay">
 ]
 (else:)[
 	(set: $brute_force_suceed to false)
-    [[Press 'enter' ->execute attack (brute force)]]
+	[[Press 'enter' ->execute attack (brute force)]]
 ]
 }
 
@@ -110,12 +109,35 @@ Good night ;)
 [[sleep and dream of a better life with grass and shower]]
 
 
-:: Envoyer un mail {"position":"3675,275","size":"100,100"}
+:: Disclaimer {"position":"500,750","size":"100,100"}
+<div style="text-align: center; color: #E0FFFF; max-width: 700px; margin: auto;">
+    <div class="Titrenom" style="font-size: 2rem;">Legal Notice (LoL Edition)</div>
+    
+    <p>
+        The events and characters depicted in this story are purely fictional and intended for humorous purposes only. This story is an exaggerated, satirical take on the life of an extremely dedicated (and somewhat irresponsible) gamer.
+    </p>
+    <p>
+        <strong>DO NOT ATTEMPT ANY HACKING METHODS DESCRIBED HERE.</strong> Hacking is illegal, often ineffective, and generally a bad life choice unless your name is Neo. If you need money, please try getting a job or selling your old League of Legends accounts.
+    </p>
+    <p>
+        Seriously, go touch some grass.
+    </p>
+    
+    <div style="margin-top: 30px;">
+        [[I understand, let's proceed->Beggining]]
+    </div>
+</div>
 
+
+:: Envoyer un mail {"position":"3675,275","size":"100,100"}
+The mail is sent. Now, you wait for a careless employee to open it... but you realize you don't even know anyone's name. You sent a generic email to a generic bank address. This is going to fail.
+
+(set: $reason to "the Trojan Horse got flagged as spam")
+[[Lose page]]
 
 
 :: Fin {"position":"3125,300","size":"100,100"}
-
+The End
 
 
 :: First {"position":"925,750","size":"100,100"}
@@ -126,11 +148,11 @@ Good night ;)
 Your ringtone is ringing , you wake up at at 1 p.m. like every day, after all.
 You sit on your used gaming chair drink a redbull and start playing your unique and favorite game League of Legend !
 After 15 min of fight even after all your efforts you lose, you're still bad at it, and another defeat awaits you in the next game.
-You also dream of getting the new skin of arhis but  you remind that you're unemployed and you don't even have enough money to pay your internet provider.
+You also dream of getting the new skin of arhis but  you remind that you're unemployed and you don't even have enough money to pay your internet provider.
 The night start to fall, will you sleep later and continue to play or you won't stop because its your 20th lose of the day?
 
-[[Continue to lose]] 
-[[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
+[[Continue to lose]] 
+[[Ask yourself an existential question about your weight and your level in this game that drives you crazy]] 
 [[sleep and dream of a better life with grass and shower]]
 
 
@@ -144,7 +166,7 @@ But there's nothing interesting, since most users are just checking their emails
 After a couple of 20 games, each worse than the last, you decide to check out the famous Wi-Fi that's supposed to make you rich in a few days, and you quickly realize that you're not the only one using it at night.
 Several profiles come to you:]
 
-[[A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
+[[A young student, probably on the phone with his family ( maybe using phishing with family members, or using a context that would push him to send you money).]] 
 
 [[A man who is probably nearing the end of his life, but who seems to be very fortunate (he has multiple new-generation devices connected to this Wi-Fi), visiting a website whose name you don't know, but which could be compared to a video or live call according to the Wi-Fi information.]]
 
@@ -154,19 +176,19 @@ Several profiles come to you:]
 
 
 :: I WANT MONEY NOWWW !! {"position":"2150,775","size":"100,100"}
-(set: $goodChoices to $goodChoices-1)
+(set: $goodChoices to $goodChoices - 1)
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/o0ZpesMYF6A?autoplay=1&loop=1&playlist=o0ZpesMYF6A" 
-frameborder="0" allow="autoplay">
+src="https://www.youtube.com/embed/o0ZpesMYF6A?autoplay=1&loop=1&playlist=o0ZpesMYF6A" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 [[What should I attack ?]]
 
 
 :: I need to train myself before {"position":"3000,525","size":"100,100"}
-(set: $goodChoices to $goodChoices+1)
+(set: $goodChoices to $goodChoices + 1)
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/ODpmhq6CYYk?autoplay=1&loop=1&playlist=ODpmhq6CYYk" 
-frameborder="0" allow="autoplay">
+src="https://www.youtube.com/embed/ODpmhq6CYYk?autoplay=1&loop=1&playlist=ODpmhq6CYYk" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 [[he learns stuff idk]]
 
@@ -175,10 +197,10 @@ frameborder="0" allow="autoplay">
 So you want more, some people can fight for a jar of Nutella at 75% discount so you don't feel ashamed. The new bundle came out on the LoL shop and you want it, but are you ready to hack something bigger to be able to get enough money ?
 
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/S5uZBz_8XV0?autoplay=1&loop=1&playlist=S5uZBz_8XV0" 
-frameborder="0" allow="autoplay">
+src="https://www.youtube.com/embed/S5uZBz_8XV0?autoplay=1&loop=1&playlist=S5uZBz_8XV0" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
-[[I need to train myself before]] 
+[[I need to train myself before]] 
 [[I WANT MONEY NOWWW !!]]
 
 
@@ -186,14 +208,15 @@ frameborder="0" allow="autoplay">
 You thought SFR wouldn't dare to cut your internet, but they did...
 You now have no connexion and you can't play League Of Legends anymore, you're lonely and depressed.
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/K3kFQHKE0LA?autoplay=1&loop=1&playlist=K3kFQHKE0LA" 
-frameborder="0" >
+src="https://www.youtube.com/embed/K3kFQHKE0LA?autoplay=1&loop=1&playlist=K3kFQHKE0LA" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 
 (set: $reason to "you can't live without LoL")
 {
 (set: _time to 6)
-(live: 1s)[(set: _time to it - 1)
+(live: 1s)[
+	(set: _time to it - 1)
 	(if: _time is 0)[
 		(goto: "Lose page")
 	]
@@ -202,12 +225,14 @@ frameborder="0" >
 
 
 :: It worked {"position":"1900,750","size":"100,100"}
+(set: $money to 50)
 The elder gave you the 50$ as you wished. 50$ is great but with more money you could not only pay your internet bills but also buy new skins in game.
 
 [[I want more money]]
 
 
 :: Lose page {"position":"3000,300","size":"100,100"}
+<<<<<<< Updated upstream
 <div class="end-card fade-in">
   <div class="title">GAME OVER</div>
   <div class="subtle">You lose because $reason</div>
@@ -219,35 +244,51 @@ The elder gave you the 50$ as you wished. 50$ is great but with more money you c
     <div class="subtle">Tu as réussi à rembourser ta dette. Il reste peut-être une chance de rejouer.</div>
     <div class="title">
       [[Rejouer->First]]
+=======
+<div class="end-card fade-in" style="text-align: center;">
+
+    <div class="title">GAME OVER</div>
+    
+    <div class="subtle">
+        You lose because: $reason
+>>>>>>> Stashed changes
     </div>
-  ]
-  (else:)[
-    <div>Tu n’as pas réussi à atteindre les 120€.  
-    Ta connexion est coupée, et le silence t’enveloppe lentement...</div>
+    
+    <div class="big-money">
+        You have collected: $money€
+    </div>
+
+    <p style="color: #A3B8CC;">
+        You failed to reach the €120 target.  
+        Your connection is cut, and the silence slowly engulfs you...
+    </p>
 
     <div class="help-block">
-      Parfois, même les plus grands (et les pires) joueurs ont une fin.  
+        Sometimes, even the greatest (and worst) players meet an end.  
     </div>
 
     <div class="actions">
-      [[Fin]]
+        [[End->Fin]]
     </div>
-  ]
-<iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/hBPwpM2oqOk?autoplay=1&loop=1&playlist=hBPwpM2oqOk" 
-frameborder="0" allow="autoplay">
-</iframe>
+
+    <iframe width="1" height="1" style="opacity:0; position:absolute;"
+    src="https://www.youtube.com/embed/hBPwpM2oqOk?autoplay=1&loop=1&playlist=hBPwpM2oqOk" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+    </iframe>
 </div>
 
 
 :: PANIC AND BEG FOR MERCY {"position":"3925,575","size":"100,100"}
 It seems that your last games of LoL fired the few remaining neurons that was still alive in your brain.
 [[Woops I doxed my adress]]
+<<<<<<< Updated upstream
 
 
 :: Passage sans titre {"position":"3650,1100","size":"100,100"}
 *ENTREE DANS LE SYSTEME*
 
+=======
+>>>>>>> Stashed changes
 
 :: Passage sans titre 1 {"position":"3875,725","size":"100,100"}
 *INJECTION SQL*
@@ -284,16 +325,16 @@ You remember that you don't have the password of your 'conseiller bancaire'
 
 
 :: SFR calls you {"position":"1300,800","size":"100,100"}
-The next day, you wake up at 1 p.m. again, but today it's not your alarm clock that wakes you up, but your phone ringing. 
+The next day, you wake up at 1 p.m. again, but today it's not your alarm clock that wakes you up, but your phone ringing. 
 It's SFR! You start talking to them, but the tone escalates. They remind you that you are already four months behind on your subscription and that the late fees are skyrocketing.
-Finally, you can no longer ask for more time, and they end up telling you that in two days, you will have to pay 120 euros. They hang up on you. 
+Finally, you can no longer ask for more time, and they end up telling you that in two days, you will have to pay 120 euros. They hang up on you. 
 So you wonder what to do. Ignore these threats and continue playing your favorite games, or look for a way to earn money?
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/Ky2mly1gIQU?autoplay=1&loop=1&playlist=Ky2mly1gIQU" 
-frameborder="0" allow="autoplay">
+src="https://www.youtube.com/embed/Ky2mly1gIQU?autoplay=1&loop=1&playlist=Ky2mly1gIQU" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 
-[[I ABSOLUTLY NEED TO FIND MONEY]] 
+[[I ABSOLUTLY NEED TO FIND MONEY]] 
 [[Ignore SFR]]
 
 
@@ -308,7 +349,8 @@ You look up and see the sun piercing the cloud in the horizon. It's been a while
 (set: $reason to "you don't have enough time to gather the money you needed")
 {
 (set: _time to 6)
-(live: 1s)[(set: _time to it - 1)
+(live: 1s)[
+	(set: _time to it - 1)
 	(if: _time is 0)[
 		(goto: "Lose page")
 	]
@@ -317,11 +359,52 @@ You look up and see the sun piercing the cloud in the horizon. It's been a while
 
 
 :: Trojan Horse {"position":"3525,350","size":"100,100"}
+<<<<<<< Updated upstream
 [[Envoyer un mail]]
+=======
+You spend hours crafting an email, trying to mimic a legitimate IT request, but with a malicious file attached. This requires finesse and a victim prone to clicking random attachments.
+
+[[Send the email->Envoyer un mail]]
+
+
+:: Victory {"position":"4000,475","size":"100,100"}
+<div class="end-card fade-in victory-card" style="text-align: center;">
+    <div class="title">VICTORY</div>
+
+    <img src="https://i.imgur.com/eBfD0j2.png" alt="Video game victory screen" style="width: 100%; max-width: 400px; height: auto; margin: 20px auto; border: 3px solid #00c0ff; border-radius: 10px; box-shadow: 0 0 15px #00c0ff;">
+    
+    <div class="subtle">
+        Congratulations $name!
+    </div>
+    
+    <p>
+        You pulled it off! The banking system has been breached, and the money is yours. No more internet cut-off threats! You can finally afford that new Ahri skin and even order a few more Redbulls. Your redemption is... digital!
+    </p>
+
+    (set: $money to $money + 120)
+    <div class="big-money">
+        Money collected: $money€
+    </div>
+    
+    <p>
+        Thanks to this last heist, you've not only paid off your €120 debt, but you also have a comfortable surplus.
+    </p>
+
+    <div class="actions">
+        [[Play Again->First]]
+        [[End->Fin]]
+    </div>
+    
+    <iframe width="1" height="1" style="opacity:0; position:absolute;"
+    src="https://www.youtube.com/embed/QYhD5F0kC9g?autoplay=1&loop=1&playlist=QYhD5F0kC9g" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+    </iframe>
+</div>
+>>>>>>> Stashed changes
 
 
 :: Wait they have cyber security :/ {"position":"2550,825","size":"100,100"}
-[[keep going]] 
+[[keep going]] 
 [[mollo mollo l'asticot]]
 
 
@@ -332,7 +415,7 @@ You look up and see the sun piercing the cloud in the horizon. It's been a while
 :: What should I attack ? {"position":"2275,700","size":"100,100"}
 You want money.
 
-[[Attack the bank fast]] 
+[[Attack the bank fast]] 
 [[Attack the bank slow]]
 
 
@@ -343,37 +426,61 @@ You want money.
 :: change of plan {"position":"3825,575","size":"100,100"}
 Unfortunately, the bank's cybersecurity department are not apes. They detected your trial to brute-force them. You still got time to change your plans and choose another strategy.
 
-[[DON'T PANIC AND SEND A TROJAN HORSE ->Trojan Horse]] 
-[[DON'T PANIC AND FIND A ZERO-DAY VULNERABILITY->find a Zero-day vulnerability]] 
+[[DON'T PANIC AND SEND A TROJAN HORSE ->Trojan Horse]] 
+[[DON'T PANIC AND FIND A ZERO-DAY VULNERABILITY->find a Zero-day vulnerability]] 
 [[PANIC AND BEG FOR MERCY]]
 
 
 :: execute attack (brute force) {"position":"3700,525","size":"100,100"}
 (set: _event to (random: 1, 2))
 {
-(if: $brute_force_suceed is true) [
-	(go-to: "suceed_brute_force")
+(if: $brute_force_suceed is true)[
+    (set: $money to $money + 120)
+	(go-to: "Victory")
 ]
-(else-if: _event is 1) [
+(else-if: _event is 1)[
 	(go-to: "change of plan")
 ]
 (else:)[
 	(set: $reason to "Did you really think that you could brute-force a bank ?")
-    (go-to: "Lose page")
-
+    (go-to: "Lose page")
 ]
 }
 
 
 :: find a Zero-day vulnerability {"position":"3525,700","size":"100,100"}
+<<<<<<< Updated upstream
 Que des bons choix: 75% win, 25% 2nd truc
 
 sinon: 
 ptit jeux tah la QCM (jsp moi) où si tu fail tu perds
 si tu réussi tu gagnes
+=======
+You decide to hunt for a 'Zero-day'—a freshly discovered flaw unknown to the bank. This is a gamble. You analyze network traffic and outdated server logs.
+
+{
+(set: _successChance to (random: 1, 4))
+(if: $goodChoices is 2)[
+    (set: _successChance to 1)
+]
+
+(if: _successChance is 1)[
+    (set: $money to $money + 120)
+    <p><strong>SUCCESS!</strong> You found an obscure memory corruption bug in an old module. You silently exploit it, extract the $120 you need, and patch the bug behind you. You’re good, too good.</p>
+    [[Get back to gaming->Victory]]
+]
+(else:)[
+    <p><strong>FAILURE.</strong> After hours of staring at code, the only vulnerability you found was the amount of time you spend indoors. You've wasted too much precious time.</p>
+    (set: $reason to "you failed to find a zero-day and ran out of time")
+    [[Give up->Lose page]]
+]
+}
+>>>>>>> Stashed changes
 
 
 :: he learns stuff idk {"position":"3125,525","size":"100,100"}
+After two intense days of watching YouTube tutorials and reading obscure forums, you've leveled up your hacking skill to... well, maybe Bronze 4. Still, you understand the basics of protecting your trail better now.
+
 [[You are now a real hacker ->he's now better >:)]]
 
 
@@ -388,13 +495,15 @@ Well you miss clicked and enabled your webcam, now the cybersecurity service now
 
 
 :: mollo mollo l'asticot {"position":"2700,825","size":"100,100"}
+You decide to take your time and study the system more. This is boring, but maybe you'll find an easier way in without raising alarms.
+
 [[I need to train myself before]]
 
 
 :: public wifi attack {"position":"1775,725","size":"100,100"}
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
-frameborder="0" allow="autoplay">
+src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 
 [[It worked]]
@@ -404,19 +513,20 @@ frameborder="0" allow="autoplay">
 You're not sleeping well and you dream of all your lost games. You can hear a voice whisper to you that you're going to stay hardstuck bronze until your death.
 
 <iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/4xqFVWqM-k4?autoplay=1&loop=1&playlist=4xqFVWqM-k4" 
-frameborder="0" allow="autoplay">
+src="https://www.youtube.com/embed/4xqFVWqM-k4?autoplay=1&loop=1&playlist=4xqFVWqM-k4" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 
 [[Wake up->SFR calls you]]
 
 
-:: suceed_brute_force {"position":"3825,475","size":"100,100"}
-GO-TO GOOD ENDING
-
-
 :: StoryStylesheet [stylesheet]
+/* ====== Import de la police rétro ====== */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* ====== Style global de l'histoire (conteneur principal) ====== */
 tw-story {
+<<<<<<< Updated upstream
   background: linear-gradient(-45deg, #426C82, #222A3D);
 }
 
@@ -446,129 +556,185 @@ body {
   font-family: 'Press Start 2P', monospace;
   background: radial-gradient(circle at center, #000000 0%, #1a0000 70%);
   color: #ff0000;
+=======
+  /* Fond dégradé radial (repris de ton ancienne règle 'body') */
+  background: radial-gradient(circle at center, #000000 0%, #1a0000 70%);
+  /* Couleur de texte par défaut */
+  color: #A3B8CC;
+  
+  /* Centrage vertical et horizontal de tout le contenu */
+>>>>>>> Stashed changes
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
+  overflow-y: auto; /* Permet de scroller si le contenu est trop long */
 }
 
-/* ====== Carte principale ====== */
+/* ====== Style pour les passages de texte normaux ====== */
+tw-passage {
+  /* Police standard pour la lisibilité du récit */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ====== Style des liens ====== */
+tw-link {
+  color: #00FFFF; /* Cyan/Bleu vif pour les liens */
+}
+
+tw-link:hover {
+  color: #FFB73B;
+}
+
+/* ====== Masquage de la barre latérale et des boutons Undo/Redo ====== */
+tw-sidebar {
+  display: none;
+}
+tw-icon[title="Undo"], tw-icon[title="Redo"] {
+    display: none !important;
+}
+
+/* ====== Carte principale (Game Over / Victory) ====== */
 .end-card {
-  text-align: center;
-  max-width: 600px;
-  padding: 40px;
-  background: rgba(0, 0, 0, 0.75);
-  border: 3px solid #ff0000;
-  border-radius: 20px;
-  box-shadow: 0 0 25px #ff0000;
-  animation: pulseBorder 3s infinite alternate;
+  /* Police pixelisée pour les écrans de fin */
+  font-family: 'Press Start 2P', monospace;
+  text-align: center;
+  max-width: 600px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.75);
+  border: 3px solid #ff0000;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #ff0000;
+  animation: pulseBorder 3s infinite alternate;
 }
 
-/* ====== Titre principal ====== */
+/* ====== Titre principal (GAME OVER / VICTORY) ====== */
 .title {
-  font-size: 3rem;
-  color: 4B258A;
-  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
-  margin-bottom: 20px;
-  animation: flicker 2s infinite;
+  font-size: 3rem;
+  color: #4682B4; /* Bleu acier */
+  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
+  margin-bottom: 20px;
+  animation: flicker 2s infinite;
 }
 
-/* ====== Sous-texte ====== */
+/* ====== Sous-texte (raison de la défaite, félicitations) ====== */
 .subtle {
-  font-size: 2rem;
-   color:4B258A;
-  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
-  margin-bottom: 20px;
-  animation: flicker 2s infinite;
+f font-size: 2rem;
+  color:#4682B4; 
+  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
+  margin-bottom: 20px;
+  animation: flicker 2s infinite;
 }
+
+/* ====== Affichage de l'argent ====== */
 .big-money {
-  font-size: 1.2rem;
-  color: 4B258A;
-  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
-  margin-bottom: 30px;
+  font-size: 1.2rem;
+  color: #4682B4;
+  text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
+  margin-bottom: 30px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 12px 25px;
-  color: #fff;
-  text-decoration: none;
-  border: 2px solid #ff0000;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  font-family: inherit;
-}
-
-.btn:hover {
-  background: #ff0000;
-  box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
-}
-
-.btn--primary {
-  border-color: #00ffcc;
-  color: #00ffcc;
-}
-
-.btn--primary:hover {
-  background: #00ffcc;
-  color: #000;
-  box-shadow: 0 0 15px #00ffcc;
-}
-
-/* ====== Texte d’aide ====== */
+/* ====== Texte d’aide (pour la défaite) ====== */
 .help-block {
-  margin-top: 25px;
-  font-size: 0.9rem;
-  color: #ff9999;
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #ff9999;
 }
 
-/* ====== Effets d’animation ====== */
+/* ====== Style pour les titres dans le jeu (ex: "Wake up $name !!") ====== */
+.Titrenom {
+  /* Police pixelisée pour les titres */
+  font-family: 'Press Start 2P', monospace;
+  font-size: 3rem;
+  color:#4682B4;
+  margin-bottom: 20px;
+  animation: flicker 2s infinite;
+}
+
+/* ====== Style pour les longs blocs de texte ====== */
+.Long {
+  max-height: 100%;
+  font-size: 0.8em;
+}
+
+/* ====== Style spécifique pour la carte de Victoire (Bleu) ====== */
+.victory-card {
+    border: 3px solid #00c0ff; /* Bordure bleue */
+    box-shadow: 0 0 25px #00c0ff; /* Ombre bleue */
+    animation: pulseBorderBlue 3s infinite alternate; /* Nouvelle animation pour le bleu */
+    background: rgba(0, 0, 0, 0.85); /* Fond légèrement plus opaque */
+}
+
+/* Titres, sous-titres et argent en bleu pour la victoire */
+.victory-card .title,
+.victory-card .subtle,
+.victory-card .big-money {
+    color: #4682B4; 
+    text-shadow: 0 0 10px #00c0ff, 0 0 30px #00c0ff; /* Ombre de texte bleue */
+}
+
+/* Texte de paragraphe de victoire en bleu clair */
+.victory-card p {
+    color: #E0FFFF;
+}
+
+/* Liens de victoire */
+.victory-card .actions tw-link {
+    border-color: #00c0ff;
+    color: #00c0ff; 
+}
+
+.victory-card .actions tw-link:hover {
+    background: #00c0ff; 
+    color: #000; 
+    box-shadow: 0 0 10px #00c0ff, 0 0 20px #00c0ff;
+}
+
+
+/* ====== Animations ====== */
+
+/* Scintillement pour les titres */
 @keyframes flicker {
-  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-    opacity: 1;
-  }
-  20%, 24%, 55% {
-    opacity: 0.3;
-  }
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    opacity: 0.3;
+  }
 }
 
+/* Pulsation de la bordure (rouge pour défaite) */
 @keyframes pulseBorder {
-  from {
-    box-shadow: 0 0 10px #ff0000;
-  }
-  to {
-    box-shadow: 0 0 30px #ff0000;
-  }
+  from {
+    box-shadow: 0 0 10px #ff0000;
+  }
+  to {
+    box-shadow: 0 0 30px #ff0000;
+  }
 }
 
+/* Pulsation de la bordure (bleu pour victoire) */
+@keyframes pulseBorderBlue {
+  from {
+    box-shadow: 0 0 10px #00c0ff;
+  }
+  to {
+    box-shadow: 0 0 30px #00c0ff;
+  }
+}
+
+/* Fondu à l'apparition */
 .fade-in {
-  animation: fadeIn 1.5s ease forwards;
+  animation: fadeIn 1.5s ease forwards;
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* ====== Effet rétro console ====== */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-.Titrenom{
-  font-size: 3rem;
-  color:#4682B4;
-  margin-bottom: 20px;
-  animation: flicker 2s infinite;
-}
-
-.Long {
-  max-height: 100%;
-  font-size: 0.8em;
- 
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
