@@ -23,6 +23,25 @@ How to proceed ?
 [[find a Zero-day vulnerability]]
 
 
+:: \ steal a 1M {"position":"4300,800","size":"100,100"}
+I mean, for a small transfer your attack could have worked, but you will learn that when it comes to millions of dollars a human is checking if the transfer is correct.
+You put your own account as the receiver so they know exactly who you are.
+
+When you discover that you miserably failed, you're starting to sweat (more than usual), you already hear the sirens of the cops coming to your house, and you enjoy a last game of LoL before going to jail.
+
+[[The cops are in front of my house]] 
+
+
+:: \ steal a thousand {"position":"4300,700","size":"100,100"}
+(set: $money to $money + 1000)
+
+You're a greedy boy, but somehow the guy in charge of checking transfers was a middle school intern.
+You're now rich, you can pay your bills and even buy skins !
+You feel relieved 😌
+
+[[I can now do the thing I love the most: play LoL->Victory]]
+
+
 :: A charming woman you've noticed a few times on the bar terrace, but also on her Instagram profile, because right now she's on it, sending messages but mostly photos ( possibly compromising photos that could be used for a ransom). {"position":"1550,875","size":"100,100"}
 (set: $goodChoices to $goodChoices - 1)
 Even though you've seen the advice on Reddit, you're still hooked on her Instagram photos, and even if you catch one of the photos she sent (man in the middle), it's just a cute cat photo :( 
@@ -271,43 +290,6 @@ It seems that your last games of LoL fired the few remaining neurons that was st
 <<<<<<< Updated upstream
 
 
-:: Passage sans titre {"position":"3650,1100","size":"100,100"}
-*ENTREE DANS LE SYSTEME*
-
-=======
->>>>>>> Stashed changes
-
-
-:: Passage sans titre 1 {"position":"3875,725","size":"100,100"}
-*INJECTION SQL*
-
-
-:: Passage sans titre 2 {"position":"3825,1100","size":"100,100"}
-*LOOK FOR TOKENS LEAKED ON GITHUB*
-
-
-:: Passage sans titre 3 {"position":"3875,1475","size":"100,100"}
-*TRY TO LOG INTO UR 'CONSEILLER BANCAIRE' ACCOUNT AND CLICK ON 'FORGET PASSWORD'*
-
-
-:: Passage sans titre 4 {"position":"4100,700","size":"100,100"}
-*TYPE HERE A WORKING SQL INJECTION*
-
-
-:: Passage sans titre 5 {"position":"4100,825","size":"100,100"}
-*TYPE HERE A BAD SQL INJECTION*
-
-
-:: Passage sans titre 6 {"position":"3975,1025","size":"100,100"}
-*SEARCH IN config.json*
-
-
-:: Passage sans titre 7 {"position":"3975,1150","size":"100,100"}
-*SEARCH IN main.f90*
-
--> going to fail bro who can rrly read fortran code ?
-
-
 :: Passage sans titre 8 {"position":"4050,1475","size":"100,100"}
 You remember that you don't have the password of your 'conseiller bancaire'
 
@@ -347,15 +329,12 @@ You look up and see the sun piercing the cloud in the horizon. It's been a while
 
 
 :: Trojan Horse {"position":"3525,350","size":"100,100"}
-<<<<<<< Updated upstream
-[[Envoyer un mail]]
-=======
 You spend hours crafting an email, trying to mimic a legitimate IT request, but with a malicious file attached. This requires finesse and a victim prone to clicking random attachments.
 
 [[Send the email->Envoyer un mail]]
 
 
-:: Victory {"position":"4000,475","size":"100,100"}
+:: Victory {"position":"4100,200","size":"100,100"}
 <div class="end-card fade-in victory-card" style="text-align: center;">
     <div class="title">VICTORY</div>
 
@@ -410,12 +389,35 @@ You want money.
 [[The cops are in front of my house]]
 
 
+:: bad sql injection {"position":"4100,825","size":"100,100"}
+It seems like you accidentally deleted the SQL table that was saving bank accounts. That means 2 things, the bank you hacked just went bankrupt and you lost your bank account because you were stupid enough to hack the bank you're client of.
+
+(set: $reason to "you erased your bank account")
+{
+(set: _time to 6)
+(live: 1s)[
+	(set: _time to it - 1)
+	(if: _time is 0)[
+		(goto: "Lose page")
+	]
+]
+}
+
+
 :: change of plan {"position":"3825,575","size":"100,100"}
 Unfortunately, the bank's cybersecurity department are not apes. They detected your trial to brute-force them. You still got time to change your plans and choose another strategy.
 
 [[DON'T PANIC AND SEND A TROJAN HORSE ->Trojan Horse]] 
 [[DON'T PANIC AND FIND A ZERO-DAY VULNERABILITY->find a Zero-day vulnerability]] 
 [[PANIC AND BEG FOR MERCY]]
+
+
+:: exec zero day vuln {"position":"3650,1100","size":"100,100"}
+You need to enter the system. Several options come to you:
+
+[[Try an SQL injection ->sql injection]] 
+[[Look for leaked tokens on github ->github tokens]] 
+[[you remember your bank advisor email and try to hack her account ->hack giselle de la compta]] 
 
 
 :: execute attack (brute force) {"position":"3700,525","size":"100,100"}
@@ -436,7 +438,6 @@ Unfortunately, the bank's cybersecurity department are not apes. They detected y
 
 
 :: find a Zero-day vulnerability {"position":"3525,700","size":"100,100"}
-
 You decide to hunt for a 'Zero-day'—a freshly discovered flaw unknown to the bank. This is a gamble. You analyze network traffic and outdated server logs.
 
 {
@@ -456,6 +457,21 @@ You decide to hunt for a 'Zero-day'—a freshly discovered flaw unknown to the b
     [[Give up->Lose page]]
 ]
 }
+
+
+:: github tokens {"position":"3825,1100","size":"100,100"}
+You now that some developpers forget API keys on github, these API keys could allow you to take control of the transfer server and you could divert the money to your account.
+
+For some reasons, your bank have some sourcecode published publically on github, but a project is often really big with thousands of files.
+
+You find 2 interesting files, 'config.json' which is a config file and 'main.f90' which seems to be the main file.
+
+[[Search keys in config.json ->search in config.json]] 
+[[Search keys in main.f90 ->search in main.f90]] 
+
+
+:: hack giselle de la compta {"position":"3875,1475","size":"100,100"}
+*TRY TO LOG INTO UR 'CONSEILLER BANCAIRE' ACCOUNT AND CLICK ON 'FORGET PASSWORD'*
 
 
 :: he learns stuff idk {"position":"3125,525","size":"100,100"}
@@ -481,12 +497,23 @@ You decide to take your time and study the system more. This is boring, but mayb
 
 
 :: public wifi attack {"position":"1775,725","size":"100,100"}
-<iframe width="1" height="1" style="opacity:0; position:absolute;"
-src="https://www.youtube.com/embed/RjJDCTgBJHA?autoplay=1&loop=1&playlist=RjJDCTgBJHA" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
 
-[[It worked]]
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+<img src="https://github.com/SuperMaxime38/TwineStory/blob/main/file_00000000d02462469525175b1ce2ed59.png?raw=true" style="width: 400px;">
+
+[[Ask him the money ->It worked]]
+</div>
+
+
+:: search in config.json {"position":"3975,1025","size":"100,100"}
+*SEARCH IN config.json*
+
+
+:: search in main.f90 {"position":"3975,1150","size":"100,100"}
+*SEARCH IN main.f90*
+
+-> going to fail bro who can rrly read fortran code ?
 
 
 :: sleep and dream of a better life with grass and shower {"position":"1125,1000","size":"100,100"}
@@ -498,6 +525,39 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 </iframe>
 
 [[Wake up->SFR calls you]]
+
+
+:: sql injection {"position":"3875,725","size":"100,100"}
+Bank systems uses Fortran to run, which is a very old programming launguage.
+Knowing that they still use this outdated technology, maybe they forgot to patch SQL injections.
+
+You're in front of the admin login panel and you try to log in (yeah that's what a login panel is usually used for).
+
+Your cursor is placed on the identifer field:
+[[Execute $name OR 1=1 ->working sql injection]] 
+[[Execute $name ; DROP TABLE BankAccounts ->bad sql injection]] 
+
+
+:: steal just enough {"position":"4300,600","size":"100,100"}
+(set: $money to 120)
+
+You stole just enough money to pay your bills, SFR will be happy and so are you.
+You can now play LoL day and night until someone else threaten you to cut your internet... or electricity.
+
+[[Get back to gaming->Victory]]
+
+
+:: working sql injection {"position":"4100,700","size":"100,100"}
+Fortunately for you SQL are still a thing in 2025.
+You currently have $money $ and you need 120$ in order to pay your bills.
+However, with this access to the system, you could steal more money than needed and SFR won't ever annoy you again !
+
+You can process a transfer to you own account, how many money will you rob:
+
+(set: _needed_money to 120 - $money)
+[[Just enough money to pay my bills (_needed_money $)->steal just enough]]
+[[A little bit more, I took risks I get rewards (1000$) -> steal a thousand]]
+[[Imagine how many skins I could buy with 1M (steal 1M$) -> steal a 1M]]
 
 
 :: StoryStylesheet [stylesheet]
