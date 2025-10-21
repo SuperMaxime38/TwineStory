@@ -1,14 +1,14 @@
-StoryTitle
+:: StoryTitle
 UneSuperHistoire
 
 
 :: StoryData
 {
-  "ifid": "3B99F9C6-3026-42EC-8C2E-C7EA95792606",
-  "format": "Harlowe",
-  "format-version": "3.3.9",
-  "start": "Disclaimer",
-  "zoom": 1
+  "ifid": "9216F934-5D56-46CA-8FE0-24E3A0A54A47",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Disclaimer",
+  "zoom": 1
 }
 
 
@@ -156,7 +156,6 @@ The night start to fall, will you sleep later and continue to play or you won't 
 [[sleep and dream of a better life with grass and shower]]
 
 
-
 :: I ABSOLUTLY NEED TO FIND MONEY {"position":"1425,700","size":"100,100"}
 <div class="Long">[Forced to find a way to get money, you decide to abandon the idea of robbing a homeless person (it wouldn't bring in enough, you'd have to do it too many times...). However, you've always been good at hacking and dodging security systems on the internet.
 After searching around online, you come across a really helpful Reddit thread on how to access a device on free Wi-Fi.
@@ -232,26 +231,13 @@ The elder gave you the 50$ as you wished. 50$ is great but with more money you c
 
 
 :: Lose page {"position":"3000,300","size":"100,100"}
-<<<<<<< Updated upstream
 <div class="end-card fade-in">
-  <div class="title">GAME OVER</div>
-  <div class="subtle">You lose because $reason</div>
 
-  <div class="big-money">You have collected: $money€</div>
-
-  (if: $money >= 120)[
-    (set: $money to 0)
-    <div class="subtle">Tu as réussi à rembourser ta dette. Il reste peut-être une chance de rejouer.</div>
-    <div class="title">
-      [[Rejouer->First]]
-=======
-<div class="end-card fade-in" style="text-align: center;">
 
     <div class="title">GAME OVER</div>
     
     <div class="subtle">
         You lose because: $reason
->>>>>>> Stashed changes
     </div>
     
     <div class="big-money">
@@ -276,6 +262,7 @@ The elder gave you the 50$ as you wished. 50$ is great but with more money you c
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
     </iframe>
 </div>
+<div class="end-card fade-in" style="text-align: center;">
 
 
 :: PANIC AND BEG FOR MERCY {"position":"3925,575","size":"100,100"}
@@ -289,6 +276,7 @@ It seems that your last games of LoL fired the few remaining neurons that was st
 
 =======
 >>>>>>> Stashed changes
+
 
 :: Passage sans titre 1 {"position":"3875,725","size":"100,100"}
 *INJECTION SQL*
@@ -400,7 +388,6 @@ You spend hours crafting an email, trying to mimic a legitimate IT request, but 
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
     </iframe>
 </div>
->>>>>>> Stashed changes
 
 
 :: Wait they have cyber security :/ {"position":"2550,825","size":"100,100"}
@@ -449,13 +436,7 @@ Unfortunately, the bank's cybersecurity department are not apes. They detected y
 
 
 :: find a Zero-day vulnerability {"position":"3525,700","size":"100,100"}
-<<<<<<< Updated upstream
-Que des bons choix: 75% win, 25% 2nd truc
 
-sinon: 
-ptit jeux tah la QCM (jsp moi) où si tu fail tu perds
-si tu réussi tu gagnes
-=======
 You decide to hunt for a 'Zero-day'—a freshly discovered flaw unknown to the bank. This is a gamble. You analyze network traffic and outdated server logs.
 
 {
@@ -475,7 +456,6 @@ You decide to hunt for a 'Zero-day'—a freshly discovered flaw unknown to the b
     [[Give up->Lose page]]
 ]
 }
->>>>>>> Stashed changes
 
 
 :: he learns stuff idk {"position":"3125,525","size":"100,100"}
@@ -526,7 +506,6 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 
 /* ====== Style global de l'histoire (conteneur principal) ====== */
 tw-story {
-<<<<<<< Updated upstream
   background: linear-gradient(-45deg, #426C82, #222A3D);
 }
 
@@ -563,7 +542,6 @@ body {
   color: #A3B8CC;
   
   /* Centrage vertical et horizontal de tout le contenu */
->>>>>>> Stashed changes
   display: flex;
   align-items: center;
   justify-content: center;
@@ -619,7 +597,7 @@ tw-icon[title="Undo"], tw-icon[title="Redo"] {
 
 /* ====== Sous-texte (raison de la défaite, félicitations) ====== */
 .subtle {
-f font-size: 2rem;
+ font-size: 2rem;
   color:#4682B4; 
   text-shadow: 0 0 10px #ff0000, 0 0 30px #ff0000;
   margin-bottom: 20px;
