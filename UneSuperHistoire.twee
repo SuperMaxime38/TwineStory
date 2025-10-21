@@ -23,7 +23,7 @@ How to proceed ?
 [[find a Zero-day vulnerability]]
 
 
-:: \ steal a 1M {"position":"4300,800","size":"100,100"}
+:: \ steal a 1M {"position":"4525,1125","size":"100,100"}
 I mean, for a small transfer your attack could have worked, but you will learn that when it comes to millions of dollars a human is checking if the transfer is correct.
 You put your own account as the receiver so they know exactly who you are.
 
@@ -32,7 +32,7 @@ When you discover that you miserably failed, you're starting to sweat (more than
 [[The cops are in front of my house]] 
 
 
-:: \ steal a thousand {"position":"4300,700","size":"100,100"}
+:: \ steal a thousand {"position":"4525,1025","size":"100,100"}
 (set: $money to $money + 1000)
 
 You're a greedy boy, but somehow the guy in charge of checking transfers was a middle school intern.
@@ -155,7 +155,7 @@ The mail is sent. Now, you wait for a careless employee to open it... but you re
 [[Lose page]]
 
 
-:: Fin {"position":"3125,300","size":"100,100"}
+:: Fin {"position":"3200,300","size":"100,100"}
 The End
 
 
@@ -208,7 +208,10 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 src="https://www.youtube.com/embed/ODpmhq6CYYk?autoplay=1&loop=1&playlist=ODpmhq6CYYk" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
-[[he learns stuff idk]]
+
+You need to train yourself and that's what your going to do.
+
+[[TRAIN HARDER ->he learns stuff idk]]
 
 
 :: I want more money {"position":"2025,750","size":"100,100"}
@@ -245,7 +248,21 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 :: It worked {"position":"1900,750","size":"100,100"}
 (set: $money to 50)
 The elder gave you the 50$ as you wished. 50$ is great but with more money you could not only pay your internet bills but also buy new skins in game.
+<div style="background-image: url('https://github.com/SuperMaxime38/TwineStory/blob/main/ddd.png?raw=true');
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: inline-block;
+            color : white-smoke;
+            width:3300px;
+            height: 1100px;
+            vertical-align: middle;">
 
+</div>
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/5gsp7eNmT-c?autoplay=1&loop=1&playlist=5gsp7eNmT-c" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media ; gyroscope; picture-in-picture; web-share">
+</iframe>
 [[I want more money]]
 
 
@@ -285,13 +302,8 @@ The elder gave you the 50$ as you wished. 50$ is great but with more money you c
 
 
 :: PANIC AND BEG FOR MERCY {"position":"3925,575","size":"100,100"}
-It seems that your last games of LoL fired the few remaining neurons that was still alive in your brain.
+It seems that your last games of LoL fried the few remaining neurons that was still alive in your brain.
 [[Woops I doxed my adress]]
-<<<<<<< Updated upstream
-
-
-:: Passage sans titre 8 {"position":"4050,1475","size":"100,100"}
-You remember that you don't have the password of your 'conseiller bancaire'
 
 
 :: SFR calls you {"position":"1300,800","size":"100,100"}
@@ -371,7 +383,7 @@ You spend hours crafting an email, trying to mimic a legitimate IT request, but 
 
 :: Wait they have cyber security :/ {"position":"2550,825","size":"100,100"}
 [[keep going]] 
-[[mollo mollo l'asticot]]
+[[let's slow down ->mollo mollo l'asticot]]
 
 
 :: Wait they have cyber security ?! {"position":"2500,600","size":"100,100"}
@@ -410,6 +422,21 @@ Unfortunately, the bank's cybersecurity department are not apes. They detected y
 [[DON'T PANIC AND SEND A TROJAN HORSE ->Trojan Horse]] 
 [[DON'T PANIC AND FIND A ZERO-DAY VULNERABILITY->find a Zero-day vulnerability]] 
 [[PANIC AND BEG FOR MERCY]]
+
+
+:: email à sylvie {"position":"4050,1400","size":"100,100"}
+Some hacker find clever ways to get sensitive datas from you with advanced phishing techniques and you, you simply and nicely ask for them. Nice try i guess.
+
+(set: $reason to "Sylvie never answered you")
+{
+(set: _time to 6)
+(live: 1s)[
+	(set: _time to it - 1)
+	(if: _time is 0)[
+		(goto: "Lose page")
+	]
+]
+}
 
 
 :: exec zero day vuln {"position":"3650,1100","size":"100,100"}
@@ -459,6 +486,21 @@ You decide to hunt for a 'Zero-day'—a freshly discovered flaw unknown to the b
 }
 
 
+:: forgotten password {"position":"4050,1550","size":"100,100"}
+Sylvie will probably be a little bit surprised when she will see an email telling her that someone clicked on "forgotten password" but as mentioned in this kind of messages, you should ignore them if you're not the one who triggered them. And so she won't change her password. I mean, even if she did, how could you even know what the new password would be. I'm not sure why you would try something like that :/
+
+(set: $reason to "you failed you hack")
+{
+(set: _time to 6)
+(live: 1s)[
+	(set: _time to it - 1)
+	(if: _time is 0)[
+		(goto: "Lose page")
+	]
+]
+}
+
+
 :: github tokens {"position":"3825,1100","size":"100,100"}
 You now that some developpers forget API keys on github, these API keys could allow you to take control of the transfer server and you could divert the money to your account.
 
@@ -471,7 +513,14 @@ You find 2 interesting files, 'config.json' which is a config file and 'main.f90
 
 
 :: hack giselle de la compta {"position":"3875,1475","size":"100,100"}
-*TRY TO LOG INTO UR 'CONSEILLER BANCAIRE' ACCOUNT AND CLICK ON 'FORGET PASSWORD'*
+You received an e-mail two weeks ago from your bank advisor "Sylvie FromAccounting" warning you about the fact that you only got 0.67$ remaining on your account.
+Of course in 2 weeks you spended this money but you can still retrieve the e-mail adress of the sender.
+
+You go to the login panel of your bank website and enter the email.
+Then you remember that you also need a password.
+
+[[Send an email to Sylvie to ask her her password->email à sylvie]] 
+[[Click on 'forgotten password' and hope for a miracle->forgotten password]]
 
 
 :: he learns stuff idk {"position":"3125,525","size":"100,100"}
@@ -507,13 +556,32 @@ You decide to take your time and study the system more. This is boring, but mayb
 
 
 :: search in config.json {"position":"3975,1025","size":"100,100"}
-*SEARCH IN config.json*
+The config.json is a massive file but after 15 minutes you find something that looks like an API key.
+You can now transfer money to your bank account.
+However, with this access to the system, you could steal more money than needed and SFR won't ever annoy you again !
+
+You can process a transfer to you own account, how many money will you rob:
+(set: _needed_money to 120 - $money)
+[[Just enough money to pay my bills (_needed_money $)->steal just enough]]
+[[A little bit more, I took risks I get rewards (1000$) -> steal a thousand]]
+[[Imagine how many skins I could buy with 1M (steal 1M$) -> steal a 1M]]
 
 
 :: search in main.f90 {"position":"3975,1150","size":"100,100"}
-*SEARCH IN main.f90*
+You trained hard to become an actual hacker, still there's not a lot of people that are able to read and understand Fortran. The code looks like chinese to you and after spending a few hours reading you still don't understand any functions.
 
--> going to fail bro who can rrly read fortran code ?
+You got an SMS from SFR telling you that your internet has been stopped.
+
+(set: $reason to "you failed your hack")
+{
+(set: _time to 6)
+(live: 1s)[
+	(set: _time to it - 1)
+	(if: _time is 0)[
+		(goto: "Lose page")
+	]
+]
+}
 
 
 :: sleep and dream of a better life with grass and shower {"position":"1125,1000","size":"100,100"}
@@ -538,7 +606,7 @@ Your cursor is placed on the identifer field:
 [[Execute $name ; DROP TABLE BankAccounts ->bad sql injection]] 
 
 
-:: steal just enough {"position":"4300,600","size":"100,100"}
+:: steal just enough {"position":"4525,925","size":"100,100"}
 (set: $money to 120)
 
 You stole just enough money to pay your bills, SFR will be happy and so are you.
