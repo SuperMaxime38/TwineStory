@@ -353,11 +353,31 @@ You spend hours crafting an email, trying to mimic a legitimate IT request, but 
 [[Send the email->Envoyer un mail]]
 
 
+:: Use my Nord VPN subscription to hack Sylvie {"position":"3900,1700","size":"100,100"}
+Nord VPN is like a superpower, you can even watch Netflix content from countries where they aren't available !
+
+But anyway, you don't care about movies, you only want money !
+
+Nord VPN allows you to do anything on the internet anonymously.
+
+[[rob the money of Sylvie FromAccounting]]
+
+
 :: Victory {"position":"4100,200","size":"100,100"}
+
+
+
+
+
+
+
+
+
+
 <div class="end-card fade-in victory-card" style="text-align: center;">
     <div class="title">VICTORY</div>
 
-    <img src="https://i.imgur.com/eBfD0j2.png" alt="Video game victory screen" style="width: 100%; max-width: 400px; height: auto; margin: 20px auto; border: 3px solid #00c0ff; border-radius: 10px; box-shadow: 0 0 15px #00c0ff;">
+    <img src="https://github.com/SuperMaxime38/TwineStory/blob/main/victory_mais_en_plus_bo.png?raw=true" alt="Video game victory screen" class="victory_image">
     
     <div class="subtle">
         Congratulations $name!
@@ -506,6 +526,17 @@ You find 2 interesting files, 'config.json' which is a config file and 'main.f90
 
 
 :: hack giselle de la compta {"position":"3875,1475","size":"100,100"}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 You received an e-mail two weeks ago from your bank advisor "Sylvie FromAccounting" warning you about the fact that you only got 0.67$ remaining on your account.
 Of course in 2 weeks you spended this money but you can still retrieve the e-mail adress of the sender.
 
@@ -514,6 +545,48 @@ Then you remember that you also need a password.
 
 [[Send an email to Sylvie to ask her her password->email à sylvie]] 
 [[Click on 'forgotten password' and hope for a miracle->forgotten password]]
+[
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+   
+   
+   
+   
+   
+   
+   
+]
+
+<div style="color: #426C82">
+[[Use my Nord VPN subscription to hack Sylvie]]
+</div>
+
 
 
 :: he learns stuff idk {"position":"3125,525","size":"100,100"}
@@ -546,6 +619,16 @@ You decide to take your time and study the system more. This is boring, but mayb
 
 [[Ask him the money ->It worked]]
 </div>
+
+
+:: rob the money of Sylvie FromAccounting {"position":"5000,1700","size":"100,100"}
+It seems like Sylvie was embezzling money from the bank.
+You transfer all her money to you own account.
+You're rich forever.
+You can pay your SFR bill, buy all the skins you want and complete your monster cans collection.
+
+(set: $money to 99999999999999999999999.69)
+[[Call SFR to anounce them you're buying the compagny ->Victory]] 
 
 
 :: search in config.json {"position":"3975,1025","size":"100,100"}
@@ -789,6 +872,13 @@ tw-icon[title="Undo"], tw-icon[title="Redo"] {
     box-shadow: 0 0 10px #00c0ff, 0 0 20px #00c0ff;
 }
 
+.victory_image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 20px auto;
+  animation: 3s linear 0s infinite reverse both running halo
+}
 
 /* ====== Animations ====== */
 
@@ -836,4 +926,18 @@ tw-icon[title="Undo"], tw-icon[title="Redo"] {
     opacity: 1;
     transform: scale(1);
   }
+}
+
+@keyframes halo {
+ 0% {
+  	filter: drop-shadow(0 0 30px ##007AA3);
+  }
+  
+ 25% {
+   filter: drop-shadow(0 0 30px #00c0ff);
+  }
+  
+ 75% {
+   filter: drop-shadow(0 0 30px ##5F2EFF);
+  }
 }
