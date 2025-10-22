@@ -152,7 +152,7 @@ Good night ;)
 The mail is sent. Now, you wait for a careless employee to open it... but you realize you don't even know anyone's name. You sent a generic email to a generic bank address. This is going to fail.
 
 (set: $reason to "the Trojan Horse got flagged as spam")
-[[Lose page]]
+[[Nobody opened your email->Lose page]]
 
 
 :: Fin {"position":"3200,300","size":"100,100"}
@@ -322,7 +322,14 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 
 :: The cops are in front of my house {"position":"2700,600","size":"100,100"}
 (set: $reason to "you got arrested")
-[[Lose page]]
+You hear the cops in front of your house, you know that it's over for you :(
+
+<iframe width="1" height="1" style="opacity:0; position:absolute;"
+src="https://www.youtube.com/embed/a-2kRxbERMY?autoplay=1&loop=1&playlist=a-2kRxbERMY" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+</iframe>
+
+[[Go to jail ->Lose page]]
 
 
 :: The sun is setting {"position":"1650,500","size":"100,100"}
@@ -398,6 +405,7 @@ You want money.
 
 
 :: Woops I doxed my adress {"position":"2600,600","size":"100,100"}
+
 [[The cops are in front of my house]]
 
 
