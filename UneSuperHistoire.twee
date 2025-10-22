@@ -465,25 +465,10 @@ You need to enter the system. Several options come to you:
 
 
 :: find a Zero-day vulnerability {"position":"3525,700","size":"100,100"}
-You decide to hunt for a 'Zero-day'—a freshly discovered flaw unknown to the bank. This is a gamble. You analyze network traffic and outdated server logs.
+You decide to hunt for a 'Zero-day' vulnerabiltity to get access to the whole system.
+You know that these vulnerabilities are rare and hard to find and you hope that the risks you're taking are worth it.
 
-{
-(set: _successChance to (random: 1, 4))
-(if: $goodChoices is 2)[
-    (set: _successChance to 1)
-]
-
-(if: _successChance is 1)[
-    (set: $money to $money + 120)
-    <p><strong>SUCCESS!</strong> You found an obscure memory corruption bug in an old module. You silently exploit it, extract the $120 you need, and patch the bug behind you. You’re good, too good.</p>
-    [[Get back to gaming->Victory]]
-]
-(else:)[
-    <p><strong>FAILURE.</strong> After hours of staring at code, the only vulnerability you found was the amount of time you spend indoors. You've wasted too much precious time.</p>
-    (set: $reason to "you failed to find a zero-day and ran out of time")
-    [[Give up->Lose page]]
-]
-}
+[[How will I enter the system ?->exec zero day vuln]]
 
 
 :: forgotten password {"position":"4050,1550","size":"100,100"}
